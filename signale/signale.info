@@ -1,0 +1,32 @@
+screenshot  = screenshot.png
+name        = signale
+description = theme for Cornell University Signale web site
+
+core        = 7.x
+
+; First we remove the system's menu styling since Zen has its own.
+stylesheets[all][] = system.menus.css
+
+stylesheets[all][] = stylesheets/style.css
+
+;scripts[] = js/modernizr.js
+
+regions[header]         = Header
+regions[navigation]     = Navigation bar
+regions[banner]         = Banner
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar]  		= Sidebar
+regions[footer]         = Footer
+regions[bottom]         = Page bottom
+
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+features[] = name
+features[] = logo
+features[] = slogan
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
