@@ -107,6 +107,10 @@
   </div>
 </nav>
 
+<?php if(drupal_is_front_page()) ?>
+  hello
+<?php endif; ?>
+
 <section class="page-title">
   <div class="container">
     <?php if ($title): ?>
