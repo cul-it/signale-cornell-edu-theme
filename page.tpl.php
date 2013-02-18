@@ -118,7 +118,7 @@
 <section class="main-content">
   <div class="container">
     <?php print render($page['highlighted']); ?>
-    <?php print $breadcrumb; ?>
+    <!--<?php print $breadcrumb; ?>-->
     <?php print $messages; ?>
     <?php print render($tabs); ?>
     <?php print render($page['help']); ?>
