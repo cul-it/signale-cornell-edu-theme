@@ -107,6 +107,29 @@
   </div>
 </nav>
 
+<?php if(drupal_is_front_page()) ?>
+  <section class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          <div class="site-identity">
+            <h2>Modern German letters, cultures and thought</h2>
+            <p>Signale is a book series for English-language scholarship on the literature, culture, criticism, and intellectual history of the German-speaking world, as well as translations of important German-language works.</p>
+          </div>
+        </div>
+        <div class="span5 offset1">
+          <div class="new-book">
+            <a href="#"><img src="img/new-book/blumenberg.png"></a>
+            <div class="book-formats">
+              <a href="#" class="cu-press">Cornell University Press</a>
+              <a href="#" class="amazon">Amazon</a>
+              <a href="#" class="google-books">Google Books</a>
+          </div>
+        </div>
+      </div>
+  </section>
+<?php endif; ?>
+
 <section class="page-title">
   <div class="container">
     <?php if ($title): ?>
@@ -125,6 +148,9 @@
     <?php if ($action_links): ?>
       <ul class="action-links"><?php print render($action_links); ?></ul>
     <?php endif; ?>
+    <?php if(drupal_is_front_page()) {
+      unset($page['content']['system_main']['default_message']);
+    }?>
     <?php print render($page['content']); ?>
      <?php
       // Render the sidebars to see if there's anything in them.
