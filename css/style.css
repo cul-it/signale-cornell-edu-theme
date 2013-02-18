@@ -5676,23 +5676,23 @@ p.caption {
   font-family: 'MercuryRegular'; }
 .navbar .brand:hover {
   color: #0099b2; }
-.navbar .nav {
+.navbar .menu {
   margin-top: 50px;
   float: right; }
-  .navbar .nav li a {
+  .navbar .menu li a {
     text-shadow: 0 0 0;
     color: #4d4e53;
     font-size: 1.25em;
     padding-left: 10px;
     padding-right: 10px;
-    background: url("../img/nav-divider.png") no-repeat; }
-  .navbar .nav li a:hover {
+    background: url("/sites/all/themes/signale/images/nav-divider.png") no-repeat; }
+  .navbar .menu li a:hover {
     color: #18b9d2;
-    background: url("../img/nav-divider.png") no-repeat; }
-  .navbar .nav li:first-child a {
+    background: url("/sites/all/themes/signale/images/nav-divider.png") no-repeat; }
+  .navbar .menu li:first-child a {
     background-image: none; }
-  .navbar .nav li.active a,
-  .navbar .nav li.active a:hover {
+  .navbar .menu li.active a,
+  .navbar .menu li.active a:hover {
     color: #18b9d2;
     border-bottom: 5px solid #18b9d2;
     background-color: inherit;

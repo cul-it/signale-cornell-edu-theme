@@ -9,7 +9,7 @@
 		font-family: 'MercuryRegular';
 	}
 	.brand:hover { color: #0099b2; }
-	.nav {
+	.menu {
 		margin-top: 50px;
 		float: right;
 		li {
@@ -20,10 +20,10 @@
 				font-size: 1.25em;
 				padding-left: 10px;
 				padding-right: 10px;
-				background: url("../img/nav-divider.png") no-repeat; }
+				background: url("/sites/all/themes/signale/images/nav-divider.png") no-repeat; }
 			a:hover {
 				color: $turquoise;
-				background: url("../img/nav-divider.png") no-repeat; }
+				background: url("/sites/all/themes/signale/images/nav-divider.png") no-repeat; }
 		}
 		li:first-child {
 			a { background-image: none; }
