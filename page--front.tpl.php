@@ -107,12 +107,25 @@
   </div>
 </nav>
 
-<section class="page-title">
+<section class="hero">
   <div class="container">
-    <?php if ($title): ?>
-      <h2><?php print $title; ?></h2>
-    <?php endif; ?>    
-  </div>
+    <div class="row">
+      <div class="span6">
+        <div class="site-identity">
+          <h2>Modern German letters, cultures and thought</h2>
+          <p>Signale is a book series for English-language scholarship on the literature, culture, criticism, and intellectual history of the German-speaking world, as well as translations of important German-language works.</p>
+        </div>
+      </div>
+      <div class="span5 offset1">
+        <div class="new-book">
+          <a href="#"><img src="/sites/all/themes/signale/images/new-book/blumenberg.png"></a>
+          <div class="book-formats">
+            <a href="#" class="cu-press">Cornell University Press</a>
+            <a href="#" class="amazon">Amazon</a>
+            <a href="#" class="google-books">Google Books</a>
+        </div>
+      </div>
+    </div>
 </section>
 
 <section class="main-content">
