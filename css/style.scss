@@ -1,24 +1,24 @@
-@import 'lib/bootstrap';
+@import 'sites/all/theme/signale/css/lib/bootstrap';
 @import 'lib/responsive';
 
 
 // Override necessary Bootstrap variables
-@import 'variables';
+@import 'sites/all/theme/signale/css/variables';
 
 // Font Awesome
 // @import 'font-awesome';
 
 // Fonts
-@import 'font-museo';
-@import 'font-mercury';
+@import 'sites/all/theme/signale/css/font-museo';
+@import 'sites/all/theme/signale/css/font-mercury';
 
 // Load partials
-@import 'base';
-@import 'cornell-brand';
-@import 'navigation';
-@import 'layout';
-@import 'home';
-@import 'responsive';
+@import 'sites/all/theme/signale/css/base';
+@import 'sites/all/theme/signale/css/cornell-brand';
+@import 'sites/all/theme/signale/css/navigation';
+@import 'sites/all/theme/signale/css/layout';
+@import 'sites/all/theme/signale/css/home';
+@import 'sites/all/theme/signale/css/responsive';
 
 
 
