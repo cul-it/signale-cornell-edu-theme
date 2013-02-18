@@ -5768,7 +5768,7 @@ p.caption {
 /***************************/
 footer {
   padding: 60px 0;
-  background: url("../img/hr-bg.png") no-repeat top; }
+  background: url("../images/img/hr-bg.png") no-repeat top; }
   footer nav ul {
     list-style: none;
     margin-left: 0; }
@@ -5781,7 +5781,7 @@ footer {
       display: block;
       color: #4d4e53;
       padding: 2px 2px 0 10px;
-      background: url("../img/nav-divider-footer.png") no-repeat; }
+      background: url("../images/nav-divider-footer.png") no-repeat; }
     footer nav ul li:first-child a {
       background-image: none; }
   footer p.copyright {
