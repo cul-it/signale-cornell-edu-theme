@@ -12,7 +12,9 @@
 	.menu {
 		margin-top: 50px;
 		float: right;
+		list-style: none;
 		li {
+			float: left;
 			a {
 				text-shadow: 0 0 0;
 				color: #4d4e53; 

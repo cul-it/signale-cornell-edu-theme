@@ -5678,17 +5678,20 @@ p.caption {
   color: #0099b2; }
 .navbar .menu {
   margin-top: 50px;
-  float: right; }
-  .navbar .menu li a {
-    text-shadow: 0 0 0;
-    color: #4d4e53;
-    font-size: 1.25em;
-    padding-left: 10px;
-    padding-right: 10px;
-    background: url("/sites/all/themes/signale/images/nav-divider.png") no-repeat; }
-  .navbar .menu li a:hover {
-    color: #18b9d2;
-    background: url("/sites/all/themes/signale/images/nav-divider.png") no-repeat; }
+  float: right;
+  list-style: none; }
+  .navbar .menu li {
+    float: left; }
+    .navbar .menu li a {
+      text-shadow: 0 0 0;
+      color: #4d4e53;
+      font-size: 1.25em;
+      padding-left: 10px;
+      padding-right: 10px;
+      background: url("/sites/all/themes/signale/images/nav-divider.png") no-repeat; }
+    .navbar .menu li a:hover {
+      color: #18b9d2;
+      background: url("/sites/all/themes/signale/images/nav-divider.png") no-repeat; }
   .navbar .menu li:first-child a {
     background-image: none; }
   .navbar .menu li.active a,
