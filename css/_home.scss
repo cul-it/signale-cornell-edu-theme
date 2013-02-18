@@ -2,7 +2,7 @@
 /***************************/
 
 .hero {
-	background: url("../img/hero/etching1.jpg") no-repeat;
+	background: url("../images/hero/etching1.jpg") no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -22,7 +22,7 @@
 		height: 40px;
 		float: left;
 		margin-right: 10px;
-		background: url("../img/book-formats.png") no-repeat; }
+		background: url("../images/book-formats.png") no-repeat; }
 	a.cu-press { background-position: 0 0; }
 	a.cu-press:hover { background-position: 0 -40px; }
 	a.amazon { background-position: -40px 0; }
@@ -72,5 +72,5 @@
 /***************************/
 .carousel {
 	min-height: 400px;
-	background: url("../img/hr-bg.png") no-repeat bottom;
+	background: url("../images/hr-bg.png") no-repeat bottom;
 }

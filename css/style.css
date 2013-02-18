@@ -5791,7 +5791,7 @@ footer {
 /* Hero */
 /***************************/
 .hero {
-  background: url("../img/hero/etching1.jpg") no-repeat;
+  background: url("../images/hero/etching1.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -5811,7 +5811,7 @@ footer {
     height: 40px;
     float: left;
     margin-right: 10px;
-    background: url("../img/book-formats.png") no-repeat; }
+    background: url("../images/book-formats.png") no-repeat; }
   .book-formats a.cu-press {
     background-position: 0 0; }
   .book-formats a.cu-press:hover {
@@ -5859,7 +5859,7 @@ footer {
 /***************************/
 .carousel {
   min-height: 400px;
-  background: url("../img/hr-bg.png") no-repeat bottom; }
+  background: url("../images/hr-bg.png") no-repeat bottom; }
 
 @media (min-width: 980px) and (max-width: 1199px) {
   body {
