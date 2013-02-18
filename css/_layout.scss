@@ -24,28 +24,26 @@
 /* Sub page title */
 /***************************/
 
-.page-title {
-	// background: url("../img/hero/etching1.jpg") no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 160px;
-	h2 {
-		font-family: 'museo500';
-		font-size: 2.5em;
-		text-transform: uppercase;
-		padding: 20px 50px 20px 20px;
-		background: $turquoise;
-		color: white;
-		display: inline-block;
-		margin-top: 100px;
-		opacity: .9;
-	}
-}
-
 .not-front {
-	background: url("../images/etching1.jpg") no-repeat;
+	.page-title {
+		background: url("../img/hero/etching1.jpg") no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 160px;
+		h2 {
+			font-family: 'museo500';
+			font-size: 2.5em;
+			text-transform: uppercase;
+			padding: 20px 50px 20px 20px;
+			background: $turquoise;
+			color: white;
+			display: inline-block;
+			margin-top: 100px;
+			opacity: .9;
+		}
+	}
 }
 
 /* Main text content */

@@ -5725,13 +5725,14 @@ p.caption {
 
 /* Sub page title */
 /***************************/
-.page-title {
+.not-front .page-title {
+  background: url("../img/hero/etching1.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 160px; }
-  .page-title h2 {
+  .not-front .page-title h2 {
     font-family: 'museo500';
     font-size: 2.5em;
     text-transform: uppercase;
@@ -5741,9 +5742,6 @@ p.caption {
     display: inline-block;
     margin-top: 100px;
     opacity: .9; }
-
-.not-front {
-  background: url("../images/etching1.jpg") no-repeat; }
 
 /* Main text content */
 /***************************/
