@@ -5726,7 +5726,7 @@ p.caption {
 /* Sub page title */
 /***************************/
 .not-front .page-title {
-  background: url("../img/hero/etching1.jpg") no-repeat;
+  background: url("../images/hero/etching1.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
