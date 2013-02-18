@@ -5673,7 +5673,8 @@ p.caption {
   float: none;
   font-size: 6.5em;
   color: #18b9d2;
-  font-family: 'MercuryRegular'; }
+  font-family: 'MercuryRegular';
+  text-transform: lowercase; }
 .navbar .brand:hover {
   color: #0099b2; }
 .navbar .menu {
