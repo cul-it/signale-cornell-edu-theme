@@ -70,10 +70,10 @@
  */
 ?><!DOCTYPE html>
 
-<!--[if lt IE 7 ]><html class="ie ie6" <?php print $html_attributes; ?>> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" <?php print $html_attributes; ?>> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" <?php print $html_attributes; ?>> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html <?php print $html_attributes . $rdf_namespaces; ?>><!--<![endif]-->
+<!--[if lt IE 7 ]><html class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html><!--<![endif]-->
 
 <head profile="<?php print $grddl_profile; ?>">
   <?php print $head; ?>
