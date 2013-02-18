@@ -7,9 +7,11 @@ core        = 7.x
 ; First we remove the system's menu styling since Zen has its own.
 stylesheets[all][] = system.menus.css
 
-stylesheets[all][] = stylesheets/style.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/font-awesome.min.css
 
-;scripts[] = js/modernizr.js
+scripts[] = js/jquery-1.9.1.min.js
+scripts[] = js/bootstrap.min.js
 
 regions[header]         = Header
 regions[navigation]     = Navigation bar
