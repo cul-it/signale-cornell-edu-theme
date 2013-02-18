@@ -98,7 +98,9 @@
       </div>
       <div class="span8">
         <div class="nav-collapse collapse">
-          <?php print render($page['navigation']); ?>
+          <div class="nav">
+            <?php print render($page['navigation']); ?>
+          </div>
         </div>
       </div>
     </div>
