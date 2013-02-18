@@ -224,3 +224,7 @@ function signale_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+
+function theme_menu_tree($tree) {
+  return '<ul class="nav">'. $tree .'</ul>';
+}
