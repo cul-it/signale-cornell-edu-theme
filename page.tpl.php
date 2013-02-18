@@ -74,7 +74,7 @@
   <div class="container">
     <div class="row">
       <div class="span6">
-        <a href="http://www.cornell.edu/"><img src="/sites/all/themes/images/layout/cornell.gif" alt="Cornell University" border="0" /></a>
+        <a href="http://www.cornell.edu/"><img src="/sites/all/themes/signale/images/layout/cornell.gif" alt="Cornell University" border="0" /></a>
       </div>
       <div class="cornell-search span6 hidden-phone">
         <a href="http://www.cornell.edu/search/">Search Cornell</a>
