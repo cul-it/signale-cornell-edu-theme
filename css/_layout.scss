@@ -25,7 +25,7 @@
 /***************************/
 
 .page-title {
-	background: url("../img/hero/etching1.jpg") no-repeat;
+	// background: url("../img/hero/etching1.jpg") no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -42,6 +42,10 @@
 		margin-top: 100px;
 		opacity: .9;
 	}
+}
+
+.not-front {
+	background: url("/sites/all/themes/signale/images/etching1.jpg") no-repeat;
 }
 
 /* Main text content */
