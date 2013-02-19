@@ -10,9 +10,10 @@
 		text-transform: lowercase;
 	}
 	.brand:hover { color: #0099b2; }
+	.nav {
+		float: right; }
 	.menu {
 		margin-top: 50px;
-		float: right;
 		list-style: none;
 		li {
 			float: left;
