@@ -18,6 +18,7 @@
 		list-style: none;
 		li {
 			float: left;
+			margin-left: 0;
 			a {
 				text-shadow: 0 0 0;
 				color: #4d4e53; 
@@ -48,6 +49,8 @@
 		}
 		li.leaf {
 			background-image: none;
-			list-style: none; }
+			list-style: none;
+			padding: 0; }
+		li.expanded, li.collapsed, li.leaf { padding: 0; }
  	}
 }

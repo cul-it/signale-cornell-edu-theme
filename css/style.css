@@ -5685,6 +5685,7 @@ p.caption {
   list-style: none; }
   .navbar .menu li {
     float: left;
+    margin-left: 0;
     text-transform: lowercase; }
     .navbar .menu li a {
       text-shadow: 0 0 0;
@@ -5709,7 +5710,10 @@ p.caption {
     box-shadow: none; }
   .navbar .menu li.leaf {
     background-image: none;
-    list-style: none; }
+    list-style: none;
+    padding: 0; }
+  .navbar .menu li.expanded, .navbar .menu li.collapsed, .navbar .menu li.leaf {
+    padding: 0; }
 
 /* Identity */
 /***************************/
