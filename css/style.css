@@ -5881,7 +5881,7 @@ footer {
     display: block;
     font-size: 1.375em;
     line-height: 1.2em; }
-  .book-listing .cover {
+  .book-listing img {
     max-width: 200px;
     border: 1px solid #c4c4c4; }
   .book-listing .title {
