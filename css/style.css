@@ -1,27 +1,49 @@
 /*
-Syntax error: File to import not found or unreadable: books.
-              Load path: /Users/melissawallace/Documents/cornell/svn-themes/signaletheme/trunk/theme/css
-        on line 21 of style.scss
-
-16: @import 'base';
-17: @import 'cornell-brand';
-18: @import 'navigation';
-19: @import 'layout';
-20: @import 'home';
-21: @import 'books';
-22: @import 'responsive';
-23: 
-24: 
-25: 
-26: // @import 'header';
+Syntax error: Undefined variable: "$turquoiseHover".
+        on line 39 of _book.scss
+        from line 21 of style.scss
 
 Backtrace:
+_book.scss:39
 style.scss:21
-/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/import_node.rb:45:in `import'
-/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:215:in `visit_import'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/script/variable.rb:49:in `_perform'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/script/node.rb:40:in `perform'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:296:in `visit_prop'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:225:in `block in visit_import'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:225:in `map'
+/Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
 /Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
 /Users/melissawallace/.rvm/gems/ruby-1.9.3-p194@rails3tutorial2ndEd/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -54,4 +76,4 @@ style.scss:21
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: books.\A               Load path: /Users/melissawallace/Documents/cornell/svn-themes/signaletheme/trunk/theme/css\A         on line 21 of style.scss\A \A 16: @import 'base';\A 17: @import 'cornell-brand';\A 18: @import 'navigation';\A 19: @import 'layout';\A 20: @import 'home';\A 21: @import 'books';\A 22: @import 'responsive';\A 23: \A 24: \A 25: \A 26: // @import 'header';"; }
+  content: "Syntax error: Undefined variable: \"$turquoiseHover\".\A         on line 39 of _book.scss\A         from line 21 of style.scss"; }
