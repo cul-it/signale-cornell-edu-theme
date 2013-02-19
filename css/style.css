@@ -5920,7 +5920,7 @@ footer {
     .book-listing .book-formats a, .book-listing .book-formats .inactive {
       margin-right: 5px; }
 
-.views-row-first {
+.views-row-first .book-listing {
   padding-top: 0;
   background-image: none; }
 
