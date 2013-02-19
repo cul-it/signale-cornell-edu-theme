@@ -5682,10 +5682,12 @@ p.caption {
   float: right;
   list-style: none; }
   .navbar .menu li {
-    float: left; }
+    float: left;
+    text-transform: lowercase; }
     .navbar .menu li a {
       text-shadow: 0 0 0;
       color: #4d4e53;
+      height: 41px;
       font-size: 1.25em;
       padding-left: 10px;
       padding-right: 10px;
