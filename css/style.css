@@ -5692,8 +5692,7 @@ p.caption {
       height: 41px;
       font-size: 1.25em;
       margin-left: 0;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding: 10px 15px 10px;
       background: url("/sites/all/themes/signale/images/nav-divider.png") no-repeat; }
     .navbar .menu li a:hover {
       color: #18b9d2;
