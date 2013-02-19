@@ -11,7 +11,8 @@
 	}
 	.brand:hover { color: #0099b2; }
 	.nav {
-		float: right; }
+		float: right;
+		margin-right: 0; }
 	.menu {
 		margin-top: 50px;
 		list-style: none;
@@ -22,6 +23,7 @@
 				color: #4d4e53; 
 				height: 41px;
 				font-size: 1.25em;
+				margin-left: 0;
 				padding-left: 10px;
 				padding-right: 10px;
 				background: url("/sites/all/themes/signale/images/nav-divider.png") no-repeat; }
