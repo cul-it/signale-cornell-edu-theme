@@ -5700,8 +5700,8 @@ p.caption {
       background: url("/sites/all/themes/signale/images/nav-divider.png") no-repeat; }
   .navbar .menu li:first-child a {
     background-image: none; }
-  .navbar .menu li.active a,
-  .navbar .menu li.active a:hover {
+  .navbar .menu li.active-trail a,
+  .navbar .menu li.active-trail a:hover {
     color: #18b9d2;
     border-bottom: 5px solid #18b9d2;
     background-color: inherit;
