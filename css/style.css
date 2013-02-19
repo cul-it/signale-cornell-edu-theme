@@ -5706,6 +5706,9 @@ p.caption {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none; }
+  .navbar .menu li.leaf {
+    background-image: none;
+    list-style: none; }
 
 /* Identity */
 /***************************/
