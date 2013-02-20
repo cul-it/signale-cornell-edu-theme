@@ -5815,7 +5815,7 @@ footer {
 
 .book-formats {
   margin: 15px 0 0 30px; }
-  .book-formats a {
+  .book-formats a, .book-formats .inactive {
     text-indent: -99999px;
     display: block;
     width: 40px;
@@ -5824,17 +5824,23 @@ footer {
     margin-right: 10px;
     background: url("../images/book-formats.png") no-repeat; }
   .book-formats a.cu-press {
-    background-position: 0 0; }
-  .book-formats a.cu-press:hover {
     background-position: 0 -40px; }
+  .book-formats a.cu-press:hover {
+    background-position: 0 -80px; }
   .book-formats a.amazon {
-    background-position: -40px 0; }
-  .book-formats a.amazon:hover {
     background-position: -40px -40px; }
+  .book-formats a.amazon:hover {
+    background-position: -40px -80px; }
   .book-formats a.google-books {
-    background-position: -80px 0; }
-  .book-formats a.google-books:hover {
     background-position: -80px -40px; }
+  .book-formats a.google-books:hover {
+    background-position: -80px -80px; }
+  .book-formats .cu-press-inactive {
+    background-position: 0 0; }
+  .book-formats .amazon-inactive {
+    background-position: -40px 0; }
+  .book-formats .google-books-inactive {
+    background-position: -80px 0; }
 
 /* Featured content */
 /***************************/

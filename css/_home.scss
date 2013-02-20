@@ -15,7 +15,7 @@
 }
 .book-formats {
 	margin: 15px 0 0 30px;
-	a {
+	a, .inactive {
 		text-indent: -99999px;
 		display: block;
 		width: 40px;
@@ -23,12 +23,15 @@
 		float: left;
 		margin-right: 10px;
 		background: url("../images/book-formats.png") no-repeat; }
-	a.cu-press { background-position: 0 0; }
-	a.cu-press:hover { background-position: 0 -40px; }
-	a.amazon { background-position: -40px 0; }
-	a.amazon:hover { background-position: -40px -40px; }
-	a.google-books { background-position: -80px 0; }
-	a.google-books:hover { background-position: -80px -40px; }
+	a.cu-press { background-position: 0 -40px; }
+	a.cu-press:hover { background-position: 0 -80px; }
+	a.amazon { background-position: -40px -40px; }
+	a.amazon:hover { background-position: -40px -80px; }
+	a.google-books { background-position: -80px -40px; }
+	a.google-books:hover { background-position: -80px -80px; }
+	.cu-press-inactive { background-position: 0 0; }
+	.amazon-inactive { background-position: -40px 0; }
+	.google-books-inactive { background-position: -80px 0; }
 }
 
 /* Featured content */
