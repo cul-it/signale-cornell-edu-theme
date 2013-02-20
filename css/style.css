@@ -5876,7 +5876,7 @@ footer {
 /***************************/
 .book-listing {
   padding: 30px 0;
-  background: url("/sites/all/themes/signale/images/hr-bg.png") no-repeat top; }
+  background: url("/sites/all/themes/signale/images/hr-bg.png") no-repeat bottom; }
   .book-listing span {
     display: block;
     font-size: 1.375em;
@@ -5921,8 +5921,7 @@ footer {
       margin-right: 5px; }
 
 .views-row-first .book-listing {
-  padding-top: 0;
-  background-image: none; }
+  padding-top: 0; }
 
 @media (min-width: 980px) and (max-width: 1199px) {
   body {
