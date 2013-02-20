@@ -128,6 +128,12 @@
     </div>
 </section>
 
+<section class="books">
+  <div class="container">
+    <?php print render($page['home-carousel']); ?>
+  </div>
+<section>
+
 <section class="main-content">
   <div class="container">
     <?php print render($page['highlighted']); ?>
