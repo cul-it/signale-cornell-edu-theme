@@ -14,7 +14,7 @@ scripts[] = js/bootstrap.min.js
 
 regions[header]         = Header
 regions[navigation]     = Navigation bar
-regions[home-carousel]  = Home page carousel
+regions[carousel]  		= Home page carousel
 regions[banner]         = Banner
 regions[highlighted]    = Highlighted
 regions[help]           = Help

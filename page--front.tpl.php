@@ -130,7 +130,7 @@
 
 <section class="books">
   <div class="container">
-    <?php print render($page['home-carousel']); ?>
+    <?php print render($page['carousel']); ?>
   </div>
 <section>
 
