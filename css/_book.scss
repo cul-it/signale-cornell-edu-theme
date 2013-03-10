@@ -50,3 +50,12 @@
 	.book-listing {
 		padding-top: 0; }
 }
+
+/* Books carousel -- override */
+/***************************/
+.jcarousel-skin-default {
+	.jcarousel-item {
+		width: 200px !important;
+		height: auto;
+	}
+}
