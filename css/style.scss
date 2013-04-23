@@ -22,25 +22,7 @@
 @import 'responsive';
 
 
-/* Main text content */
-/***************************/
-.main-content {
-	color: #b31b1b;
-	.container { margin-top: 30px; }
-	h3 {
-		background: #62839a;
-		font-size: 1.375em;
-		font-family: 'museo500';
-		display: inline-block;
-		padding: 5px 10px;
-		color: white;
-		text-transform: lowercase;
-		margin-bottom: 1.5em; }
-	h4 {
-		text-transform: lowercase;
-		font-size: 1.375em;
-		font-family: 'museo700'; }
-}
+
 
 // @import 'header';
 // @import 'facets';
