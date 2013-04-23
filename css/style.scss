@@ -1,25 +1,25 @@
-@import 'lib/bootstrap';
+@import '/sites/all/themes/signale/css/lib/bootstrap';
 @import 'lib/responsive';
 
 
 // Override necessary Bootstrap variables
-@import 'variables';
+@import '/sites/all/themes/signale/css/variables';
 
 // Font Awesome
 // @import 'font-awesome';
 
 // Fonts
-@import 'font-museo';
-@import 'font-mercury';
+@import '/sites/all/themes/signale/css/font-museo';
+@import '/sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css/font-mercury';
 
 // Load partials
-@import 'base';
-@import 'cornell-brand';
-@import 'navigation';
-@import 'layout';
-@import 'home';
-@import 'book';
-@import 'responsive';
+@import '/sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css/base';
+@import '/sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css/cornell-brand';
+@import '/sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css/navigation';
+@import '/sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css/layout';
+@import '/sites/all/themes/signale/css//sites/all/themes/signale/css//sites/all/themes/signale/css/home';
+@import '/sites/all/themes/signale/css//sites/all/themes/signale/css/book';
+@import '/sites/all/themes/signale/css/responsive';
 
 
 
