@@ -1,36 +1,25 @@
-
-// hr{
-//       background:url(short-rule.gif) repeat-x top left;
-//       border: 0;
-// }
-// #secondary-content hr{
-//       background:url(med-rule.gif) no-repeat top center;
-//       border: 0;
-// }
+@import 'lib/bootstrap';
+@import 'lib/responsive';
 
 
-//@import '/sites/all/themes/signale/css/lib/bootstrap.scss';
-// @import '/sites/all/themes/signale/css/lib/responsive';
-
-
-// Override necessary Bootstrap variables!
-//@import '/sites/all/themes/signale/css/variables.scss';
+// Override necessary Bootstrap variables
+@import 'variables';
 
 // Font Awesome
 // @import 'font-awesome';
 
 // Fonts
-// @import '/sites/all/themes/signale/css/font-museo';
-// @import '/sites/all/themes/signale/css/css/font-mercury';
+@import 'font-museo';
+@import 'font-mercury';
 
 // Load partials
-// @import '/sites/all/themes/signale/css/base';
-// @import '/sites/all/themes/signale/css/cornell-brand';
-// @import '/sites/all/themes/signale/css/navigation';
-// @import '/sites/all/themes/signale/css/layout';
-// @import '/sites/all/themes/signale/css/home';
-// @import '/sites/all/themes/signale/css/book';
-// @import '/sites/all/themes/signale/css/responsive';
+@import 'base';
+@import 'cornell-brand';
+@import 'navigation';
+@import 'layout';
+@import 'home';
+@import 'book';
+@import 'responsive';
 
 
 
