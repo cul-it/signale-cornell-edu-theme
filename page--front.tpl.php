@@ -123,6 +123,7 @@
             <a href="#" class="cu-press">Cornell University Press</a>
             <a href="#" class="amazon">Amazon</a>
             <a href="#" class="google-books">Google Books</a>
+          </div>
         </div>
       </div>
     </div>
