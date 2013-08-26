@@ -5779,7 +5779,8 @@ p.caption {
 /***************************/
 footer {
   padding: 60px 0;
-  background: url("../images/hr-bg.png") no-repeat top; }
+  background: url("../images/hr-bg.png") no-repeat top;
+  clear: both; }
   footer nav ul {
     list-style: none;
     margin-left: 0; }
