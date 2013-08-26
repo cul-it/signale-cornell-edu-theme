@@ -148,6 +148,8 @@
     <?php if(drupal_is_front_page()) {
       unset($page['content']['system_main']['default_message']);
     }?>
+    <?php endif; ?>
+
     <?php print render($page['content']); ?>
      <?php
       // Render the sidebars to see if there's anything in them.
