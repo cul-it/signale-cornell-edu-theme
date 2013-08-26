@@ -127,6 +127,7 @@
       </div>
     </div>
   </div>
+</div>
 </section>
 
 <section class="books">
@@ -148,7 +149,7 @@
     <?php if(drupal_is_front_page()) {
       unset($page['content']['system_main']['default_message']);
     }?>
-    <?php endif; ?>
+
 
     <?php print render($page['content']); ?>
      <?php
