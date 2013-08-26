@@ -123,13 +123,17 @@
             <a href="#" class="cu-press">Cornell University Press</a>
             <a href="#" class="amazon">Amazon</a>
             <a href="#" class="google-books">Google Books</a>
-          </div>
         </div>
       </div>
     </div>
+  </div>
 </section>
 
-
+<section class="books">
+  <div class="container">
+    <?php print render($page['carousel']); ?>
+  </div>
+<section>
 
 <section class="main-content">
   <div class="container">
@@ -164,7 +168,7 @@
   <div class="container">
     <div class="row">
       <nav>
-        <?php print render($page['footer']); ?>
+        ?php print render($page['footer']); ?>
       </nav>
     </div>
   </div>
