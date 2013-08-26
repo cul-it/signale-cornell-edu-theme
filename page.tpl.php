@@ -147,9 +147,9 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="nav">
+      <nav>
         <?php print render($page['footer']); ?>
-      </div>
+      </nav>
     </div>
   </div>
 </footer>
