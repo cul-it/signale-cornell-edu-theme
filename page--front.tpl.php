@@ -162,7 +162,9 @@
 <footer>
   <div class="container">
     <div class="row">
-      <?php print render($page['footer']); ?>
+      <nav>
+        <?php print render($page['footer']); ?>
+      </nav>
     </div>
   </div>
 </footer>
