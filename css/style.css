@@ -5880,7 +5880,8 @@ footer {
   background: url("../images/hr-bg.png") no-repeat bottom; }
 
 .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
-  width: 100%; }
+  width: 100%;
+  height: auto !important; }
 
 .jcarousel-skin-default .jcarousel-item {
   width: 200px !important;

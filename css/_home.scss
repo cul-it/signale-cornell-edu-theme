@@ -80,7 +80,10 @@
 
 .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
 	width:100%;
+	height:auto !important;
 }
+
+
 
 .jcarousel-skin-default .jcarousel-item {
 	width: 200px !important;
