@@ -5845,13 +5845,16 @@ footer {
 
 /* Featured content */
 /***************************/
-.panel-display h2.pane-title {
-  background: #595959;
-  color: white;
-  width: 70%;
-  padding: 5px 10px;
-  font-size: 1.625em;
-  margin-bottom: 1em; }
+.panel-display {
+  width: 33%;
+  float: left; }
+  .panel-display h2.pane-title {
+    background: #595959;
+    color: white;
+    width: 70%;
+    padding: 5px 10px;
+    font-size: 1.625em;
+    margin-bottom: 1em; }
 
 .news-item p {
   font-size: 1.125em;
