@@ -5862,14 +5862,18 @@ footer {
   .editor-primary img {
     float: left;
     margin: 0 15px 15px 0; }
+  .editor-primary .series-editor {
+    float: left; }
   .editor-primary h4 {
     color: #486570;
     margin: 1.5em 0 0 0;
     font-size: 1.375em; }
 
 .editor-secondary img {
-  margin: 0 2px 2px 0;
+  margin: 0 8px 2px 0;
   vertical-align: baseline; }
+.editor-secondary p {
+  width: 70%; }
 
 /* Carousel */
 /***************************/
