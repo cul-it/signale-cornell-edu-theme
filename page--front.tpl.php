@@ -150,14 +150,14 @@
       unset($page['content']['system_main']['default_message']);
     }?>
 
-
+    <div class="row">
     <?php print render($page['content']); ?>
      <?php
       // Render the sidebars to see if there's anything in them.
       $sidebar_first  = render($page['sidebar_first']);
       $sidebar_second = render($page['sidebar_second']);
     ?>
-
+  </div>
     <?php if ($sidebar_first || $sidebar_second): ?>
       <aside class="sidebars">
         <?php print $sidebar_first; ?>
