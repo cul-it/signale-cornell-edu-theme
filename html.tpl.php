@@ -98,7 +98,7 @@
 
       function initialize() {
           var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'));
-          viewer.load('ISBN:0738531367', null, alertInitialized);
+          viewer.load('ISBN:0801478030', null, alertInitialized);
       }
 
       google.setOnLoadCallback(initialize);
