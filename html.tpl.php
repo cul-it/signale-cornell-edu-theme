@@ -89,7 +89,16 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   <?php print $scripts; ?>
-  
+  <script type="javascript">      
+google.load("books", "0");
+
+      function initialize() {
+        var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'));
+        viewer.load('ISBN:0801478030');
+      }
+
+      google.setOnLoadCallback(initialize);
+</script>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <?php print $page_top; ?>
