@@ -89,16 +89,20 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   <?php print $scripts; ?>
-  <script type="javascript">      
-google.load("books", "0");
+   <script type="text/javascript">
+      google.load("books", "0");
+
+      function alertInitialized() {
+          alert("book successfully loaded and initialized!");
+      }
 
       function initialize() {
-        var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'));
-        viewer.load('ISBN:0801478030');
+          var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'));
+          viewer.load('ISBN:0738531367', null, alertInitialized);
       }
 
       google.setOnLoadCallback(initialize);
-</script>
+    </script>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <?php print $page_top; ?>
