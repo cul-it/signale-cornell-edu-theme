@@ -5873,6 +5873,9 @@ footer {
 .editor-secondary p {
   width: 70%; }
 
+.all-news {
+  padding-right: 2em; }
+
 /* Carousel */
 /***************************/
 .carousel {
