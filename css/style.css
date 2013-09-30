@@ -5879,6 +5879,12 @@ footer {
 .all-news {
   padding-right: 2em; }
 
+.jcarousel-skin-default .jcarousel-prev-horizontal {
+  position: absolute;
+  top: 55px;
+  left: -10px;
+  background-position: 0 0; }
+
 /* Carousel */
 /***************************/
 .carousel {
@@ -5891,7 +5897,7 @@ footer {
 
 .jcarousel-skin-default .jcarousel-item {
   width: 200px !important;
-  margin: 0px 3em; }
+  margin: 0px 5em 0px 1em; }
 
 /* Books page - list */
 /***************************/
