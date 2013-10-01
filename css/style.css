@@ -5879,6 +5879,11 @@ footer {
 .all-news {
   padding-right: 2em; }
 
+.all-editors {
+  position: relative;
+  left: 60%;
+  top: -40px; }
+
 .jcarousel-skin-default .jcarousel-prev-horizontal {
   position: absolute;
   top: 55px;
