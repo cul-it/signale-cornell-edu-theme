@@ -5877,7 +5877,8 @@ footer {
   width: 70%; }
 
 .all-news {
-  padding-right: 2em; }
+  position: relative;
+  left: 60%; }
 
 .all-editors {
   position: relative;
