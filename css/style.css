@@ -5788,6 +5788,7 @@ footer {
     footer nav ul.menu li {
       float: left;
       font-size: 1.125em;
+      border-right: 1px solid #bebebe;
       text-transform: lowercase; }
     footer nav ul.menu li.active a {
       color: #a7a7ab; }
