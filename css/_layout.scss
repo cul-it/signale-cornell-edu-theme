@@ -79,11 +79,11 @@ footer {
 			li { 
 				float: left;
 				font-size: 1.125em;
-				text-transform: lowercase;
-				list-style-image: none; }
+				text-transform: lowercase; }
 			li.active {
 				a { color: #a7a7ab; }
 			}
+			li.leaf { list-style-image: none; }
 			a {
 				display: block;
 				color: #4d4e53;

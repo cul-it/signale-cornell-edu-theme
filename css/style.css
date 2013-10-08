@@ -5787,10 +5787,11 @@ footer {
     footer nav ul li {
       float: left;
       font-size: 1.125em;
-      text-transform: lowercase;
-      list-style-image: none; }
+      text-transform: lowercase; }
     footer nav ul li.active a {
       color: #a7a7ab; }
+    footer nav ul li.leaf {
+      list-style-image: none; }
     footer nav ul a {
       display: block;
       color: #4d4e53;
