@@ -148,7 +148,9 @@
   <div class="container">
     <div class="row">
       <div class="span9">
-        <?php print render($page['footer-primary']); ?>
+        <nav>
+          <?php print render($page['footer-primary']); ?>
+        </nav>
       </div>
       <div class="span3">
         <?php print render($page['footer-secondary']); ?>
