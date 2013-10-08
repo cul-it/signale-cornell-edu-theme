@@ -5788,7 +5788,7 @@ footer {
     footer nav ul.menu li {
       float: left;
       font-size: 1.125em;
-      border-right: 1px solid #bebebe;
+      border-left: 1px solid #bebebe;
       text-transform: lowercase; }
     footer nav ul.menu li.active a {
       color: #a7a7ab; }
@@ -5800,7 +5800,8 @@ footer {
       color: #4d4e53;
       padding: 0; }
     footer nav ul.menu li:first-child {
-      margin-left: 0; }
+      margin-left: 0;
+      border-left: 0; }
   footer p.copyright {
     margin-top: 5px; }
   footer .footer-logo img {

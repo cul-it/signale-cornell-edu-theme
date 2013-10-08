@@ -80,7 +80,7 @@ footer {
 			li { 
 				float: left;
 				font-size: 1.125em;
-				border-right: 1px solid $lightGray;
+				border-left: 1px solid $lightGray;
 				text-transform: lowercase; }
 			li.active {
 				a { color: #a7a7ab; }
@@ -96,6 +96,7 @@ footer {
 			}
 			li:first-child {
 				margin-left: 0;
+				border-left: 0;
 				// a { background-image: none; }
 			}
 		}
