@@ -5801,10 +5801,11 @@ footer {
     footer nav ul.menu li:first-child a {
       background-image: none; }
   footer p.copyright {
-    text-align: right;
     margin-top: 5px; }
   footer .footer-logo img {
     margin-right: 40px; }
+  footer .span3 {
+    text-align: right; }
 
 .social-links {
   text-align: right; }
