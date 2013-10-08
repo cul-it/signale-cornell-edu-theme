@@ -78,7 +78,9 @@ footer {
 			margin-left: 0;
 			li { 
 				float: left;
-				font-size: 1.125em; }
+				font-size: 1.125em;
+				text-transform: lowercase;
+				list-style-image: none; }
 			li.active {
 				a { color: #a7a7ab; }
 			}

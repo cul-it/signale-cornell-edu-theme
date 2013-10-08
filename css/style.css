@@ -5786,7 +5786,9 @@ footer {
     margin-left: 0; }
     footer nav ul li {
       float: left;
-      font-size: 1.125em; }
+      font-size: 1.125em;
+      text-transform: lowercase;
+      list-style-image: none; }
     footer nav ul li.active a {
       color: #a7a7ab; }
     footer nav ul a {
