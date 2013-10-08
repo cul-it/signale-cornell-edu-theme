@@ -5781,20 +5781,20 @@ footer {
   padding: 60px 0;
   background: url("../images/hr-bg.png") no-repeat top;
   clear: both; }
-  footer .menu ul {
+  footer nav ul {
     list-style: none;
     margin-left: 0; }
-    footer .menu ul li {
+    footer nav ul li {
       float: left;
       font-size: 1.125em; }
-    footer .menu ul li.active a {
+    footer nav ul li.active a {
       color: #a7a7ab; }
-    footer .menu ul a {
+    footer nav ul a {
       display: block;
       color: #4d4e53;
       padding: 2px 2px 0 10px;
       background: url("../images/nav-divider-footer.png") no-repeat; }
-    footer .menu ul li:first-child a {
+    footer nav ul li:first-child a {
       background-image: none; }
   footer p.copyright {
     text-align: right;
