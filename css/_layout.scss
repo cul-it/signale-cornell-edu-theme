@@ -73,9 +73,10 @@ footer {
 	background: url("../images/hr-bg.png") no-repeat top;
 	clear:both;
 	nav {
-		ul {
+		ul.menu {
 			list-style: none;
 			margin-left: 0;
+			margin-bottom: 40px;
 			li { 
 				float: left;
 				font-size: 1.125em;

@@ -5781,23 +5781,24 @@ footer {
   padding: 60px 0;
   background: url("../images/hr-bg.png") no-repeat top;
   clear: both; }
-  footer nav ul {
+  footer nav ul.menu {
     list-style: none;
-    margin-left: 0; }
-    footer nav ul li {
+    margin-left: 0;
+    margin-bottom: 40px; }
+    footer nav ul.menu li {
       float: left;
       font-size: 1.125em;
       text-transform: lowercase; }
-    footer nav ul li.active a {
+    footer nav ul.menu li.active a {
       color: #a7a7ab; }
-    footer nav ul li.leaf {
+    footer nav ul.menu li.leaf {
       list-style-type: none;
       list-style-image: none; }
-    footer nav ul a, footer nav ul a:visited {
+    footer nav ul.menu a, footer nav ul.menu a:visited {
       display: block;
       color: #4d4e53;
       padding: 0; }
-    footer nav ul li:first-child a {
+    footer nav ul.menu li:first-child a {
       background-image: none; }
   footer p.copyright {
     text-align: right;
