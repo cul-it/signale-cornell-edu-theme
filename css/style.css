@@ -5806,6 +5806,9 @@ footer {
   footer .footer-logo img {
     margin-right: 40px; }
 
+.social-links {
+  text-align: right; }
+
 /* Hero */
 /***************************/
 .hero {
