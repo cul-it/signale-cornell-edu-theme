@@ -5798,8 +5798,8 @@ footer {
       display: block;
       color: #4d4e53;
       padding: 0; }
-    footer nav ul.menu li:first-child a {
-      background-image: none; }
+    footer nav ul.menu li:first-child {
+      margin-left: 0; }
   footer p.copyright {
     margin-top: 5px; }
   footer .footer-logo img {

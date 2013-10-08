@@ -94,7 +94,8 @@ footer {
 				// background: url("../images/nav-divider-footer.png") no-repeat;
 			}
 			li:first-child {
-				a { background-image: none; }
+				margin-left: 0;
+				// a { background-image: none; }
 			}
 		}
 	}
