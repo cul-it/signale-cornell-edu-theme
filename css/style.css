@@ -5803,6 +5803,8 @@ footer {
   footer p.copyright {
     text-align: right;
     margin-top: 5px; }
+  footer .footer-logo img {
+    margin-right: 40px; }
 
 /* Hero */
 /***************************/
