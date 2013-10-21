@@ -6030,8 +6030,12 @@ footer {
     float: none; }
 
   .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
-    width: 80%;
+    width: 600px;
     height: auto !important; } }
 @media (max-width: 480px) {
   .navbar .brand {
-    margin-left: -15px; } }
+    margin-left: -15px; }
+
+  .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
+    width: 300px;
+    height: auto !important; } }
