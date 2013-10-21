@@ -5961,6 +5961,12 @@ footer {
 .views-row-first .book-listing {
   padding-top: 0; }
 
+/* Books carousel -- override */
+/***************************/
+.jcarousel-skin-default .jcarousel-item {
+  width: 200px !important;
+  height: auto; }
+
 @media (min-width: 980px) and (max-width: 1199px) {
   body {
     font-size: 90%; }
@@ -6017,8 +6023,15 @@ footer {
     float: none; }
 
   .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
-    width: 600px;
+    width: 250px;
     height: auto !important; } }
 @media (max-width: 480px) {
   .navbar .brand {
-    margin-left: -15px; } }
+    margin-left: -15px; }
+
+  .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
+    width: 250px;
+    height: auto !important; }
+
+  .jcarousel-skin-default .jcarousel-item {
+    margin: 0px 0.5em 0px 0em; } }
