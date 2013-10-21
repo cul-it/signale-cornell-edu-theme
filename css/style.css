@@ -6031,7 +6031,4 @@ footer {
     float: none; } }
 @media (max-width: 480px) {
   .navbar .brand {
-    margin-left: -15px; }
-
-  li.jcarousel-item-4 {
-    display: none; } }
+    margin-left: -15px; } }
