@@ -5979,7 +5979,11 @@ footer {
     font-size: 90%; }
 
   .navbar .container {
-    width: 940px; } }
+    width: 940px; }
+
+  .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
+    width: 95%;
+    height: auto !important; } }
 @media (min-width: 768px) and (max-width: 979px) {
   body {
     font-size: 90%; }
@@ -6002,7 +6006,11 @@ footer {
     font-size: 90%; }
 
   footer nav ul li {
-    font-size: 1em; } }
+    font-size: 1em; }
+
+  .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
+    width: 95%;
+    height: auto !important; } }
 @media (max-width: 767px) {
   body {
     padding: 0;
