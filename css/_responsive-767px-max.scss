@@ -28,4 +28,10 @@
 	.container { padding: 0 10px; }
 	.new-book { 
 		float: none; }
+
+	.jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
+	width:90%;
+	height:auto !important;
+	}
+
 }
