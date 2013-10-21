@@ -6038,14 +6038,14 @@ footer {
     float: none; }
 
   .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
-    width: 95%;
+    width: 250px;
     height: auto !important; } }
 @media (max-width: 480px) {
   .navbar .brand {
     margin-left: -15px; }
 
   .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
-    width: 95%;
+    width: 250px;
     height: auto !important; }
 
   .jcarousel-skin-default .jcarousel-item {
