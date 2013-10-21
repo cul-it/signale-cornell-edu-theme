@@ -1,4 +1,4 @@
-/*
+/*!
  * Bootstrap v2.2.1
  *
  * Copyright 2012 Twitter, Inc
@@ -4601,7 +4601,7 @@ a.label:hover, a.badge:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/*
+/*!
  * Bootstrap Responsive v2.2.1
  *
  * Copyright 2012 Twitter, Inc
@@ -6031,4 +6031,7 @@ footer {
     float: none; } }
 @media (max-width: 480px) {
   .navbar .brand {
-    margin-left: -15px; } }
+    margin-left: -15px; }
+
+  li.jcarousel-item-4 {
+    display: none; } }
