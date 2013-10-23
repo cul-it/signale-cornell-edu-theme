@@ -117,29 +117,33 @@
 
 <section class="main-content">
   <div class="container">
-    <?php print render($page['highlighted']); ?>
-    <!--<?php print $breadcrumb; ?>-->
-    <?php print $messages; ?>
-    <?php print render($tabs); ?>
-    <?php print render($page['help']); ?>
-    <?php if ($action_links): ?>
-      <ul class="action-links"><?php print render($action_links); ?></ul>
-    <?php endif; ?>
-    <?php if(drupal_is_front_page()) {
-      unset($page['content']['system_main']['default_message']);
-    }?>
-    <?php print render($page['content']); ?>
-     <?php
-      // Render the sidebars to see if there's anything in them.
-      $sidebar_first  = render($page['sidebar_first']);
-      $sidebar_second = render($page['sidebar_second']);
-    ?>
+    <div class="row">
+      <div class="span8 offset2">
+        <?php print render($page['highlighted']); ?>
+        <!--<?php print $breadcrumb; ?>-->
+        <?php print $messages; ?>
+        <?php print render($tabs); ?>
+        <?php print render($page['help']); ?>
+        <?php if ($action_links): ?>
+          <ul class="action-links"><?php print render($action_links); ?></ul>
+        <?php endif; ?>
+        <?php if(drupal_is_front_page()) {
+          unset($page['content']['system_main']['default_message']);
+        }?>
+        <?php print render($page['content']); ?>
+         <?php
+          // Render the sidebars to see if there's anything in them.
+          $sidebar_first  = render($page['sidebar_first']);
+          $sidebar_second = render($page['sidebar_second']);
+        ?>
+      </div>
+     </div> 
 
-    <?php if ($sidebar_first || $sidebar_second): ?>
+    <!--<?php if ($sidebar_first || $sidebar_second): ?>
       <aside class="sidebars">
         <?php print $sidebar_first; ?>
         <?php print $sidebar_second; ?>
-      </aside><!-- /.sidebars -->
+      </aside>--><!-- /.sidebars -->
     <?php endif; ?>
   </div>
 </section>
