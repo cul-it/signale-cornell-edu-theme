@@ -5898,12 +5898,6 @@ footer {
   left: 60%;
   top: -40px; }
 
-.jcarousel-skin-default .jcarousel-prev-horizontal {
-  position: absolute;
-  top: 55px;
-  left: -10px;
-  background-position: 0 0; }
-
 /* Carousel */
 /***************************/
 .carousel {
@@ -5914,8 +5908,17 @@ footer {
   width: 100%;
   height: auto !important; }
 
+.jcarousel-skin-default .jcarousel-prev-horizontal {
+  position: absolute;
+  top: 55px;
+  left: -10px;
+  background-position: 0 0; }
+
 .jcarousel-skin-default .jcarousel-item {
   margin: 0px 5em 0px 1em; }
+
+.author {
+  font-style: italic; }
 
 /* Books page - list */
 /***************************/
