@@ -5921,10 +5921,10 @@ footer {
   font-style: italic;
   font-size: .85em; }
 
-.jcarousel-item .title {
+.jcarousel-item .cover .title {
   text-align: left;
   padding-left: 1em; }
-  .jcarousel-item .title a {
+  .jcarousel-item .cover .title a {
     color: #a2a1a1; }
 
 /* Books page - list */

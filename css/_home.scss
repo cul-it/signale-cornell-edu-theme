@@ -119,10 +119,12 @@
 	font-size:.85em;
 }
 
-.jcarousel-item .title {
+.jcarousel-item .cover .title {
 	text-align: left;
 	padding-left: 1em;
 
-	a {color:$mediumGray}
+	a {
+		color:$mediumGray
+	}
 
 }
