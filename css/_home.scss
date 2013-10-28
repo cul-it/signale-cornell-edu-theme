@@ -111,20 +111,29 @@
 	background-position: 0 0;
 }
 .jcarousel-skin-default .jcarousel-item {
-	margin:0px 5em 0px 1em;;
+	margin:0px 5em 0px 1em;
 }
 
-.jcarousel-item .author {
+
+
+.jcarousel-item {
+
+	.author {
 	font-style: italic;
 	font-size:.85em;
-}
+	}
 
-.jcarousel-item .cover .title {
+	.cover .title {
 	text-align: left;
 	padding-left: 1em;
 
-	a {
-		color:$textColorPrimary
+		a {
+			color:$textColorPrimary
+		}
 	}
+	.cover img {
+		width:99%;
+		border: 1px $mediumGray solid;
+		}
 
 }

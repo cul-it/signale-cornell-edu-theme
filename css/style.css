@@ -5920,12 +5920,14 @@ footer {
 .jcarousel-item .author {
   font-style: italic;
   font-size: .85em; }
-
 .jcarousel-item .cover .title {
   text-align: left;
   padding-left: 1em; }
   .jcarousel-item .cover .title a {
     color: #486570; }
+.jcarousel-item .cover img {
+  width: 99%;
+  border: 1px #a2a1a1 solid; }
 
 /* Books page - list */
 /***************************/
