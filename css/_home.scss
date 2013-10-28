@@ -122,14 +122,16 @@ ul.jcarousel > li.jcarousel-item {
 	font-style: italic;
 	font-size:.85em;
 	text-align: left;
+	padding-left: .5em;
 	}
 
 	.cover .title {
 	text-align: left;
-	padding-left: 1em;
+	padding-left: .5em;
 
 		a {
-			color:$textColorPrimary
+			color:$textColorPrimary;
+			font-weight:600;
 		}
 	}
 	.cover img {
