@@ -5921,7 +5921,8 @@ ul.jcarousel > li.jcarousel-item {
   border: none; }
   ul.jcarousel > li.jcarousel-item .author {
     font-style: italic;
-    font-size: .85em; }
+    font-size: .85em;
+    text-align: left; }
   ul.jcarousel > li.jcarousel-item .cover .title {
     text-align: left;
     padding-left: 1em; }
