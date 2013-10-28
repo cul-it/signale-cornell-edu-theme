@@ -5918,7 +5918,8 @@ footer {
   margin: 0px 5em 0px 1em; }
 
 .author {
-  font-style: italic; }
+  font-style: italic;
+  font-size: .85em; }
 
 /* Books page - list */
 /***************************/
