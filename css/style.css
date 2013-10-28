@@ -5917,9 +5917,15 @@ footer {
 .jcarousel-skin-default .jcarousel-item {
   margin: 0px 5em 0px 1em; }
 
-.author {
+.jcarousel-item .author {
   font-style: italic;
   font-size: .85em; }
+
+.jcarousel-item .title {
+  text-align: left;
+  padding-left: 1em; }
+  .jcarousel-item .title a {
+    color: #a2a1a1; }
 
 /* Books page - list */
 /***************************/

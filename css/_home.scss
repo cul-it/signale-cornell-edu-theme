@@ -114,7 +114,15 @@
 	margin:0px 5em 0px 1em;;
 }
 
-.author {
+.jcarousel-item .author {
 	font-style: italic;
 	font-size:.85em;
+}
+
+.jcarousel-item .title {
+	text-align: left;
+	padding-left: 1em;
+
+	a {color:$mediumGray}
+
 }
