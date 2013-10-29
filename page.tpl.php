@@ -139,7 +139,7 @@
       </div>
      </div> 
 
-    <!--<?php if ($sidebar_first || $sidebar_second): ?>
+    <?php if ($sidebar_first || $sidebar_second): ?>
       <aside class="sidebars">
         <?php print $sidebar_first; ?>
         <?php print $sidebar_second; ?>
