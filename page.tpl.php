@@ -118,7 +118,7 @@
 <section class="main-content">
   <div class="container">
     <div class="row">
-      <div class="span9">
+      <div class="span8 offset2">
         <?php print render($page['highlighted']); ?>
         <!--<?php print $breadcrumb; ?>-->
         <?php print $messages; ?>
