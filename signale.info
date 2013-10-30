@@ -21,7 +21,6 @@ regions[banner]         = Banner
 regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content
-regions[sidebar]  		= Sidebar
 regions[footer-primary] = Footer primary
 regions[footer-secondary] = Footer secondary
 regions[bottom]         = Page bottom
