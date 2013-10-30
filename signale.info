@@ -11,7 +11,7 @@ stylesheets[all][] = css/style.css
 stylesheets[all][] = css/font-awesome.min.css
 
 scripts[] = js/bootstrap.min.js
-scripts[] = http://www.google.com/jsapi
+scripts[] = https://www.google.com/jsapi
 
 
 regions[header]         = Header
