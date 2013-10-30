@@ -143,13 +143,19 @@
     }?>
 
     <div class="row">
+      <div class="panel-display span4">
+        <?php print render($page['home-news']); ?>
+      </div>
+      <div class="panel-display span4">
+        <?php print render($page['home-editors']); ?>
+      </div>
+      <div class="panel-display span4">
+        <?php print render($page['home-media']); ?>
+      </div>
+    </div>
+
     <?php print render($page['content']); ?>
-     <?php
-      // Render the sidebars to see if there's anything in them.
-      $sidebar_first  = render($page['sidebar_first']);
-      $sidebar_second = render($page['sidebar_second']);
-    ?>
-  </div>
+       
     <?php if ($sidebar_first || $sidebar_second): ?>
       <aside class="sidebars">
         <?php print $sidebar_first; ?>

@@ -27,6 +27,9 @@ regions[footer-secondary] = Footer secondary
 regions[bottom]         = Page bottom
 regions[intro-text]     = Home page intro text
 regions[new-book]       = Home page new book
+regions[home-news]      = Home page news
+regions[home-editors]   = Home page editors
+regions[home-media]     = Home page media
 
 regions[page_top]       = Page top
 regions[page_bottom]    = Page bottom
