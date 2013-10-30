@@ -156,12 +156,6 @@
 
     <?php print render($page['content']); ?>
        
-    <?php if ($sidebar_first || $sidebar_second): ?>
-      <aside class="sidebars">
-        <?php print $sidebar_first; ?>
-        <?php print $sidebar_second; ?>
-      </aside><!-- /.sidebars -->
-    <?php endif; ?>
   </div>
 </section>
 
