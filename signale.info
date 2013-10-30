@@ -25,6 +25,7 @@ regions[sidebar]  		= Sidebar
 regions[footer-primary] = Footer primary
 regions[footer-secondary] = Footer secondary
 regions[bottom]         = Page bottom
+regions[new-book]       = Home page new book
 
 regions[page_top]       = Page top
 regions[page_bottom]    = Page bottom

@@ -117,14 +117,7 @@
         </div>
       </div>
       <div class="span5 offset1">
-        <div class="new-book">
-          <a href="#"><img src="/sites/all/themes/signale/images/new-book/blumenberg.png"></a>
-          <div class="book-formats">
-            <a href="#" class="cu-press">Cornell University Press</a>
-            <a href="#" class="amazon">Amazon</a>
-            <a href="#" class="google-books">Google Books</a>
-          </div>
-        </div>
+        <?php print render($page['new-book']); ?>
       </div>
     </div>
   </div>
