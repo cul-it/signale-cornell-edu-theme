@@ -112,8 +112,7 @@
     <div class="row">
       <div class="span6">
         <div class="site-identity">
-          <h2>Modern German letters, cultures and thought</h2>
-          <p>Signale is a book series for English-language scholarship on the literature, culture, criticism, and intellectual history of the German-speaking world, as well as translations of important German-language works.</p>
+          <?php print render($page['intro-text']); ?>
         </div>
       </div>
       <div class="span5 offset1">
