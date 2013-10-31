@@ -5915,13 +5915,13 @@ footer {
   left: -10px;
   background-position: 0 0; }
 
-.jcarousel-skin-default .jcarousel-next-horizontal, .jcarousel-skin-default .jcarousel-prev-horizontal:hover {
+.jcarousel-skin-default .jcarousel-next-horizontal, .jcarousel-skin-default .jcarousel-prev-horizontal:hover, .jcarousel-skin-default .jcarousel-next-horizontal:hover {
   position: absolute;
   top: 55px;
   right: 25px;
   background-position: -75px; }
 
-.jcarousel-skin-default .jcarousel-next, .jcarousel-skin-default .jcarousel-prev {
+.jcarousel-skin-default .jcarousel-next, .jcarousel-skin-default .jcarousel-prev, .jcarousel-skin-default .jcarousel-prev-horizontal:hover, .jcarousel-skin-default .jcarousel-next-horizontal:hover {
   display: block;
   width: 60px;
   height: 120px;
