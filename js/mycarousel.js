@@ -15,7 +15,7 @@ function mycarousel_initCallback(carousel) {
 	});
 }
 
-jQuer(document).ready(function() {
+jQuery(document).ready(function() {
 	jQuery("#mycarousel").jcarousel({
 		scroll:1,
 		initCallback: mycarousel_initCallback,
