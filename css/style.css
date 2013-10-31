@@ -5821,7 +5821,8 @@ footer {
 
 .forthcoming-title {
   font-size: 1.5em;
-  line-height: 1.25em; }
+  line-height: 1.25em;
+  margin-bottom: .25em; }
 
 .forthcoming-info {
   font-size: 1.1em; }
