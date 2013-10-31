@@ -5909,13 +5909,13 @@ footer {
   width: 100%;
   height: auto !important; }
 
-.jcarousel-skin-default .jcarousel-prev-horizontal {
+.jcarousel-skin-default .jcarousel-prev-horizontal, .jcarousel-skin-default .jcarousel-prev-horizontal:hover {
   position: absolute;
   top: 55px;
   left: -10px;
   background-position: 0 0; }
 
-.jcarousel-skin-default .jcarousel-next-horizontal {
+.jcarousel-skin-default .jcarousel-next-horizontal, .jcarousel-skin-default .jcarousel-next-horizontal:hover {
   position: absolute;
   top: 55px;
   right: 25px;
