@@ -5774,6 +5774,7 @@ p.caption {
   .main-content h4 {
     text-transform: lowercase;
     font-size: 1.375em;
+    line-height: 1.25em;
     font-family: 'museo700'; }
 
 /* Footer */
