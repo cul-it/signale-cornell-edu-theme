@@ -5915,6 +5915,12 @@ footer {
   left: -10px;
   background-position: 0 0; }
 
+.jcarousel-skin-default .jcarousel-next, .jcarousel-skin-default .jcarousel-prev {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/arrows.png); }
+
 .jcarousel-skin-default .jcarousel-item {
   margin: 0px 5em 0px 1em; }
 
