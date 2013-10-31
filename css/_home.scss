@@ -111,14 +111,9 @@
 	background-position: 0 0;
 }
 
-.jcarousel-skin-default .jcarousel-next, .jcarousel-skin-default .jcarousel-prev {
-display: block;
-width: 32px;
-height: 32px;
-background-image: url(../images/arrows.png);
-}
 
-.jcarousel-skin-default .jcarousel-next-horizontal {
+
+.jcarousel-skin-default .jcarousel-next-horizontal, .jcarousel-skin-default .jcarousel-prev-horizontal:hover {
 position: absolute;
 top: 55px;
 right: 25px;
