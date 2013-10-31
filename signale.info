@@ -12,7 +12,6 @@ stylesheets[all][] = css/font-awesome.min.css
 
 scripts[] = js/bootstrap.min.js
 scripts[] = js/jsapi.js
-scripts[] = js/mycarousel.js
 
 
 regions[header]         = Header
