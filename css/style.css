@@ -6144,6 +6144,12 @@ ul.jcarousel > li.jcarousel-item {
   footer .region-footer-secondary p {
     font-size: .875em; }
 
+  .page-books .page-title h2 {
+    width: 100%; }
+
+  .book-listing img {
+    width: 100%; }
+
   .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
     width: 95%;
     height: auto !important; } }
