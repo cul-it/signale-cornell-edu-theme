@@ -26,12 +26,17 @@
 		}
 	}
 	.container { padding: 0 10px; }
+	.site-identity {
+		h2 {
+			font-size: 2em;
+			padding: 15px 15px 10px 15px;
+		}
 	.new-book { 
 		float: none; }
 
 	.jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
-	width:250px;
-	height:auto !important;
+		width:250px;
+		height:auto !important;
 	}
 
 }
