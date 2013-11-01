@@ -5856,6 +5856,13 @@ footer {
   width: 25%;
   font-size: 1.1em; }
 
+/* News */
+/***************************/
+.news-item .news-title {
+  font-size: 1.25em;
+  line-height: 1.25em;
+  margin-bottom: .25em; }
+
 /* Hero */
 /***************************/
 .hero {
