@@ -6127,6 +6127,11 @@ ul.jcarousel > li.jcarousel-item {
     float: left;
     font-size: 90%; }
 
+  .site-identity h2 {
+    font-size: 2em; }
+  .site-identity p {
+    font-size: 1.1em; }
+
   footer nav ul li {
     font-size: 1em; }
 
