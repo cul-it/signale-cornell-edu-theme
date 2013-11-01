@@ -6010,7 +6010,7 @@ ul.jcarousel > li.jcarousel-item {
     text-align: left;
     padding-left: .5em;
     margin-top: .5em;
-    .margin-bottom: .25em;
+    margin-bottom: .5em;
     line-height: 1.25em; }
     ul.jcarousel > li.jcarousel-item .cover .title a {
       color: #434343;
