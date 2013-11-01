@@ -6198,6 +6198,8 @@ ul.jcarousel > li.jcarousel-item {
   .page-books .page-title h2 {
     font-size: 1.75em; }
 
+  .page-books-reader .navbar .btn-navbar {
+    display: none; }
   .page-books-reader .pull-right {
     float: none; }
   .page-books-reader .highlight {

@@ -44,6 +44,9 @@
 		}
 	}
 	.page-books-reader {
+		.navbar {
+			.btn-navbar { display: none; }
+		}
 		.pull-right {
 			float: none;
 		}
