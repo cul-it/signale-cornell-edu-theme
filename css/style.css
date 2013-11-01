@@ -5815,7 +5815,8 @@ footer {
   footer p.copyright {
     margin-top: 5px; }
   footer .footer-logo img {
-    margin-right: 20px; }
+    margin-right: 20px;
+    margin-bottom: 4px; }
   footer .span3 {
     text-align: right; }
   footer .region-footer-secondary p {
@@ -6139,7 +6140,9 @@ ul.jcarousel > li.jcarousel-item {
     margin-right: 2px; }
 
   footer nav ul li {
-    font-size: 1em; }
+    font-size: .875em; }
+  footer .region-footer-secondary p {
+    font-size: .875em; }
 
   .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
     width: 95%;
