@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 @media (min-width: 768px) and (max-width: 979px) {
-	body { font-size: 90%; }
+	// body { font-size: 90%; }
 	.navbar {
 		.container { width: 724px; }
 		.brand { font-size: 6em; }
@@ -12,6 +12,7 @@
 				a { font-size: 1em; }
 			}
 		}
+		,menu { margin-top: 30px; }
 		// override bootstrap nav collapse at this size
 		.btn-navbar { display: none; }
 	}
@@ -32,7 +33,7 @@
 	}
 
 	.jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
-	width:95%;
-	height:auto !important;
+		width:95%;
+		height:auto !important;
 	}
 }
