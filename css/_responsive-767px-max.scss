@@ -37,7 +37,12 @@
 	.new-book { 
 		margin-top: 0;
 		float: none; }
-
+	.page-books {
+		.page-title {
+			h2 { 
+				font-size: 1.75em;
+				width: 100%; }
+		} 
 	.jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
 		width:250px;
 		height:auto !important;
