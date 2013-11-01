@@ -6065,7 +6065,8 @@ ul.jcarousel > li.jcarousel-item {
       display: inline-block;
       background: #18b9d2;
       color: white;
-      padding: 4px 12px; }
+      padding: 4px 12px;
+      margin-bottom: 4px; }
     .book-listing .purchase-link a:hover {
       background: #0099b2; }
   .book-listing .purchase-options {
