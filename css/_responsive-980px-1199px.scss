@@ -4,13 +4,19 @@
 
 
 @media (min-width: 980px) and (max-width: 1199px) {
-	body { font-size: 90%; }
+	// body { font-size: 90%; }
 	.navbar {
 		.container { width: 940px; }
+		.menu {
+			li {
+				a { font-size: 0.875em;}
+			}
+		}
 	}
 
 	.jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
 	width:95%;
 	height:auto !important;
 	}
+
 }
