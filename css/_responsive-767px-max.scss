@@ -11,6 +11,7 @@
 		.container { 
 			width: auto;
 			padding: 0 10px; }
+		.menu { margin-top: 30px; }
 		.btn-navbar {
 			background: $turquoise;
 			margin-top: 10px;
@@ -41,6 +42,12 @@
 		.page-title {
 			h2 { font-size: 1.75em; }
 		}
+	}
+	.page-books-reader {
+		.pull-right {
+			float: none;
+		}
+		.highlight { display: inline-block; }
 	}
 	.jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
 		width:250px;
