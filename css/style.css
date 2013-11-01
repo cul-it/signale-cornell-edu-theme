@@ -5900,6 +5900,16 @@ footer {
 .view-display-id-page_2 {
   height: 900px; }
 
+/* Book page */
+/***************************/
+.page-books .page-title h2 {
+  .text-transform: none;
+  font-size: 2em;
+  width: 75%;
+  padding: 10px 50px 10px 20px; }
+.page-books .main-content {
+  margin-top: 50px; }
+
 /* Hero */
 /***************************/
 .hero {
