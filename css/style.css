@@ -5863,6 +5863,9 @@ footer {
   line-height: 1.25em;
   margin-bottom: .25em; }
 
+.news-teaser p {
+  font-size: 1em; }
+
 /* Hero */
 /***************************/
 .hero {
