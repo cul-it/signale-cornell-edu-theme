@@ -5884,6 +5884,14 @@ footer {
 
 /* Reader */
 /***************************/
+.page-books-reader .navbar {
+  margin-bottom: 0; }
+  .page-books-reader .navbar .brand {
+    margin: 20px 0 15px -20px;
+    padding-top: 0;
+    font-size: 3em; }
+  .page-books-reader .navbar .span8 {
+    display: none; }
 .page-books-reader .page-title {
   height: 40px; }
   .page-books-reader .page-title h2 {

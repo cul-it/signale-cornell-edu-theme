@@ -183,8 +183,17 @@ footer {
 /* Reader */
 /***************************/
 
-// mnimize banner
+// mnimize header
 .page-books-reader {
+	.navbar {
+		margin-bottom: 0;
+		.brand {
+			margin: 20px 0 15px -20px;
+			padding-top: 0;
+			font-size: 3em;
+		}
+		.span8 { display: none; }
+	}
 	.page-title {
 		height: 40px;
 		h2 { display: none; }
