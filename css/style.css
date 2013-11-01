@@ -6132,6 +6132,12 @@ ul.jcarousel > li.jcarousel-item {
   .site-identity p {
     font-size: 1.1em; }
 
+  .new-book {
+    margin-right: 0; }
+
+  .editor-secondary img {
+    margin-right: 2px; }
+
   footer nav ul li {
     font-size: 1em; }
 
