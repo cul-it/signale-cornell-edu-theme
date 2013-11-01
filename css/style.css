@@ -5882,6 +5882,13 @@ footer {
   text-transform: none;
   margin-bottom: 1em; }
 
+/* Reader */
+/***************************/
+.page-books-reader .page-title {
+  height: 40px; }
+  .page-books-reader .page-title h2 {
+    display: none; }
+
 /* Hero */
 /***************************/
 .hero {

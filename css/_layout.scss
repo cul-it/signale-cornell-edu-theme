@@ -179,3 +179,14 @@ footer {
 		margin-bottom: 1em;
 	}
 }
+
+/* Reader */
+/***************************/
+
+// mnimize banner
+.page-books-reader {
+	.page-title {
+		height: 40px;
+		h2 { display: none; }
+	}
+}
