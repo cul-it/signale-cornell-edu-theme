@@ -6181,11 +6181,16 @@ ul.jcarousel > li.jcarousel-item {
   .container {
     padding: 0 10px; }
 
-  .site-identity h2 {
-    font-size: 2em;
-    padding: 15px 15px 10px 15px; }
+  .site-identity {
+    margin-bottom: 30px; }
+    .site-identity h2 {
+      font-size: 2em;
+      padding: 15px 15px 10px 15px; }
+    .site-identity p {
+      font-size: 1.2em; }
 
   .new-book {
+    margin-top: 0;
     float: none; }
 
   .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
