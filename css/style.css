@@ -5879,7 +5879,8 @@ footer {
   display: block;
   color: inherit;
   background: none;
-  text-transform: none; }
+  text-transform: none;
+  margin-bottom: 1em; }
 
 /* Hero */
 /***************************/
