@@ -6101,6 +6101,9 @@ ul.jcarousel > li.jcarousel-item {
   .navbar .menu li a {
     font-size: 0.875em; }
 
+  footer nav ul.menu li {
+    font-size: 1em; }
+
   .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
     width: 95%;
     height: auto !important; } }
