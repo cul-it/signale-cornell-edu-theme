@@ -5854,7 +5854,7 @@ footer {
 /* Highlight */
 /***************************/
 .highlight {
-  width: 25%;
+  width: auto;
   font-size: 1.1em; }
 
 /* News */
@@ -6149,6 +6149,9 @@ ul.jcarousel > li.jcarousel-item {
 
   .book-listing img {
     width: 100%; }
+
+  .page-reader .pull-right {
+    float: none; }
 
   .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
     width: 95%;

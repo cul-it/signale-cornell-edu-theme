@@ -51,7 +51,11 @@
 	.book-listing {
 		img { width: 100%; }
 	}
-
+	.page-reader {
+		.pull-right {
+			float: none;
+		}
+	}
 	.jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
 		width:95%;
 		height:auto !important;
