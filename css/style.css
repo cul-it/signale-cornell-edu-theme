@@ -5818,6 +5818,8 @@ footer {
     margin-right: 20px; }
   footer .span3 {
     text-align: right; }
+  footer .region-footer-secondary p {
+    font-size: 1em; }
 
 .social-links {
   text-align: right; }
