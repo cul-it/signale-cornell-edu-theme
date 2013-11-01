@@ -5873,6 +5873,13 @@ footer {
   font-size: 1.25em;
   margin-bottom: .25em; }
 
+.main-content h3.news {
+  padding: 0;
+  display: block;
+  color: inherit;
+  background-color: none;
+  text-transform: none; }
+
 /* Hero */
 /***************************/
 .hero {
