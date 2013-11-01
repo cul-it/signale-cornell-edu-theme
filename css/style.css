@@ -5903,7 +5903,7 @@ footer {
 /* Book page */
 /***************************/
 .page-books .page-title h2 {
-  .text-transform: none;
+  text-transform: none;
   font-size: 2em;
   width: 75%;
   padding: 10px 50px 10px 20px; }
