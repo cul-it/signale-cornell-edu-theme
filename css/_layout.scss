@@ -157,11 +157,14 @@ footer {
 .news-title {
 	font-size: 1.5em;
 	line-height: 1.25em;
-	margin-bottom: .25em; }
+	margin-bottom: 1em; }
 .news-teaser {
 	p { font-size: 1em; }
 }
+.news-date { margin-bottom: 1.5em; }
 
 .front {
-	.news-title { font-size: 1.25em; }
+	.news-title { 
+		font-size: 1.25em;
+		margin-bottom: .25em; }
 }
