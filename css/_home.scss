@@ -10,7 +10,7 @@
 	min-height: 520px;
 }
 .ie8 {
-	.hero { height: 520px; }
+	.hero { min-height: 600px; }
 }
 .new-book {
 	float: right;
