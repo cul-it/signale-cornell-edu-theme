@@ -5771,7 +5771,8 @@ p.caption {
     margin-top: 100px;
     opacity: .9; }
 
-.about .page-title {
+.about .page-title,
+.for-authors .page-title {
   background: url("../images/hero/etching2.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
