@@ -5787,6 +5787,14 @@ p.caption {
   background-size: cover;
   height: 160px; }
 
+.books .page-title {
+  background: url("../images/hero/etching4.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 160px; }
+
 /* Main text content */
 /***************************/
 .main-content {
