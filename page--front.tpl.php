@@ -83,16 +83,16 @@
   </div>
 </section>
 
-  <div class="topnav">
-    <div class="container">
-      <div class="navbar">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </a>
-        <div class="row">
-          <div class="span4">
+<header>
+  <div class="container">
+    <div class="navbar">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <div class="row">
+         <div class="span4">
             <?php if ($site_name): ?>
               <a class="brand" href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
             <?php endif; ?>
@@ -108,7 +108,7 @@
       </div>
     </div>
   </div>
-</div>
+</header>
 
 <section class="hero">
   <div class="container">
