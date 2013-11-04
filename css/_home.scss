@@ -9,6 +9,9 @@
 	background-size: cover;
 	min-height: 520px;
 }
+.ie8 {
+	.hero { height: 520px; }
+}
 .new-book {
 	float: right;
 	margin: 35px 60px 30px 0;
