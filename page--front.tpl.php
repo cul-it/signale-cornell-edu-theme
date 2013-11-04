@@ -184,5 +184,5 @@
   jQuery(document).ready(function() { 
   var randomImages = ['etching1','etching2','etching3','etching4']; 
   var rndNum = Math.floor(Math.random() * randomImages.length); 
-  jQuery(".hero").css({ background: "url('/sites/all/themes/signale/images/hero/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
+  jQuery(".hero").css({ background: "url('/sites/all/themes/signale/images/hero/" + randomImages[rndNum] + ".jpg') no-repeat cover" }); });
 </script>
