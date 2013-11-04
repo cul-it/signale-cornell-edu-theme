@@ -5883,34 +5883,6 @@ footer {
   text-transform: none;
   margin-bottom: 1em; }
 
-/* Reader */
-/***************************/
-.page-books-reader .navbar {
-  margin-bottom: 0; }
-  .page-books-reader .navbar .brand {
-    margin: 20px 0 5px -20px;
-    padding-top: 0;
-    font-size: 3em; }
-  .page-books-reader .navbar .span8 {
-    display: none; }
-.page-books-reader .page-title {
-  height: 20px; }
-  .page-books-reader .page-title h2 {
-    display: none; }
-
-.view-display-id-page_2 {
-  height: 900px; }
-
-/* Book page */
-/***************************/
-.page-books .page-title h2 {
-  text-transform: none;
-  font-size: 2em;
-  width: 75%;
-  padding: 10px 50px 10px 20px; }
-.page-books .main-content {
-  margin-top: 50px; }
-
 /* Hero */
 /***************************/
 .hero {
@@ -6096,6 +6068,26 @@ ul.jcarousel > li.jcarousel-item {
   width: 200px !important;
   height: auto; }
 
+/* Reader */
+/***************************/
+.page-books-reader .navbar {
+  margin-bottom: 0; }
+  .page-books-reader .navbar .brand {
+    margin: 20px 0 5px -20px;
+    padding-top: 0;
+    font-size: 3em; }
+  .page-books-reader .navbar .span8 {
+    display: none; }
+.page-books-reader .page-title {
+  height: 20px; }
+  .page-books-reader .page-title h2 {
+    display: none; }
+
+.view-display-id-page_2 {
+  height: 900px; }
+
+/* Book page */
+/***************************/
 @media (min-width: 980px) and (max-width: 1199px) {
   .navbar .container {
     width: 940px; }

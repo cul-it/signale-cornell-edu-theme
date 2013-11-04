@@ -60,3 +60,42 @@
 		height: auto;
 	}
 }
+
+/* Reader */
+/***************************/
+
+// mnimize header
+.page-books-reader {
+	.navbar {
+		margin-bottom: 0;
+		.brand {
+			margin: 20px 0 5px -20px;
+			padding-top: 0;
+			font-size: 3em;
+		}
+		.span8 { display: none; }
+	}
+	.page-title {
+		height: 20px;
+		h2 { display: none; }
+	}
+}
+.view-display-id-page_2 { height: 900px; }
+
+/* Book page */
+/***************************/
+
+// temp fix for the page title to improve readability; delete or comment out if able to fix the page title so it says "BOOKS" instead of node title (jira issue: https://issues.library.cornell.edu/browse/CULUX-34)
+// .page-books {
+// 	.page-title {
+// 		h2 {
+// 			text-transform: none;
+// 			font-size: 2em;
+// 			width: 75%;
+// 			padding: 10px 50px 10px 20px;
+// 		}
+// 	}
+// 	.main-content {
+// 		margin-top: 50px;
+// 	}
+// }
