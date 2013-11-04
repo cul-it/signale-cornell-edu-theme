@@ -5723,13 +5723,8 @@ p.caption {
   .navbar .menu li.expanded, .navbar .menu li.collapsed, .navbar .menu li.leaf {
     padding: 0; }
 
-.ie8 .navbar {
-  text-align: center; }
-  .ie8 .navbar .container {
-    margin-right: auto;
-    margin-left: auto; }
-  .ie8 .navbar .menu li a {
-    font-size: .875em; }
+.ie8 .navbar .menu li a {
+  font-size: .875em; }
 
 /* Identity */
 /***************************/
