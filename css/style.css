@@ -5789,7 +5789,8 @@ p.caption {
   background-size: cover;
   height: 160px; }
 
-.books .page-title {
+.books .page-title,
+.contact .page-title {
   background: url("../images/hero/etching4.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
