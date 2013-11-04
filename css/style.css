@@ -6054,7 +6054,8 @@ ul.jcarousel > li.jcarousel-item {
     .book-listing .purchase-link a:hover {
       background: #0099b2; }
   .book-listing .purchase-options {
-    font-size: 1.125em; }
+    font-size: 1.125em;
+    font-weight: 900; }
   .book-listing .book-formats {
     margin: 10px 0 0 0; }
     .book-listing .book-formats a, .book-listing .book-formats .inactive {
