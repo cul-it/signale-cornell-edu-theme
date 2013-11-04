@@ -5889,6 +5889,7 @@ footer {
 /* Hero */
 /***************************/
 .hero {
+  background: url("../images/hero/etching1.jpg") no-repeat;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
