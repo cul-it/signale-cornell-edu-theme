@@ -5726,7 +5726,7 @@ p.caption {
 .ie8 .navbar .brand {
   text-align: right; }
 .ie8 .navbar .menu li a {
-  font-size: 1em; }
+  font-size: .875em; }
 
 /* Identity */
 /***************************/
