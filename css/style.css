@@ -5897,7 +5897,7 @@ footer {
   min-height: 520px; }
 
 .ie8 .hero {
-  min-height: 600px; }
+  height: 600px; }
 
 .new-book {
   float: right;
