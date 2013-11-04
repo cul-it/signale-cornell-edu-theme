@@ -5723,6 +5723,10 @@ p.caption {
   .navbar .menu li.expanded, .navbar .menu li.collapsed, .navbar .menu li.leaf {
     padding: 0; }
 
+.ie8 .navbar .brand {
+  text-align: right;
+  text-transform: uppercase; }
+
 /* Identity */
 /***************************/
 .site-identity {

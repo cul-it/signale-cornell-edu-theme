@@ -53,3 +53,10 @@
 		li.expanded, li.collapsed, li.leaf { padding: 0; }
  	}
 }
+
+// fix IE 8 alignment of navbar
+.ie8 {
+	.navbar {
+		.brand { text-align: right; text-transform: uppercase; }
+	}
+}
