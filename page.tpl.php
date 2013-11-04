@@ -83,29 +83,32 @@
   </div>
 </section>
 
-<nav class="navbar">
+<header>
   <div class="container">
-    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </a>
-    <div class="row">
-      <div class="span4">
-        <?php if ($site_name): ?>
-          <a class="brand" href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
-        <?php endif; ?>
-      </div>
-      <div class="span8">
-        <div class="nav-collapse collapse">
-          <div class="nav">
-            <?php print render($page['navigation']); ?>
+    <div class="navbar">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <div class="row">
+         <div class="span4">
+            <?php if ($site_name): ?>
+              <a class="brand" href="<?php print $front_page; ?>"><?php print $site_name; ?></a>
+            <?php endif; ?>
+          </div>
+          <div class="span8">
+            <div class="nav-collapse collapse">
+              <div class="nav">
+                <?php print render($page['navigation']); ?>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</nav>
+</header>
 
 <section class="page-title">
   <div class="container">
