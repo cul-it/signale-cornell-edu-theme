@@ -110,7 +110,7 @@
   </div>
 </header>
 
-<section class="page-title">
+<section class="page-title page-title-<?php print $section_title; ?>">
   <div class="container">
     <?php if ($title): ?>
       <h2><?php print $title; ?></h2>
