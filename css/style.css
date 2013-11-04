@@ -6045,6 +6045,7 @@ ul.jcarousel > li.jcarousel-item {
   .book-listing .purchase-link {
     margin-bottom: 1em; }
     .book-listing .purchase-link a {
+      font-size: 1.25em;
       display: inline-block;
       background: #18b9d2;
       color: white;
