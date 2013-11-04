@@ -99,7 +99,7 @@
     jQuery(document).ready(function() { 
     var randomImages = ['etching1','etching2','etching3','etching4']; 
     var rndNum = Math.floor(Math.random() * randomImages.length); 
-    jQuery(".hero").css({ background: "url('/sites/all/themes/signale/images/hero/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
+    jQuery(".hero").css({ background: "url('/sites/all/themes/signale/images/hero/" + randomImages[rndNum] + ".jpg') no-repeat", -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; min-height: 520px;}); });
   </script>
 </body>
 </html>
