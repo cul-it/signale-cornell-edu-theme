@@ -57,6 +57,12 @@
 // fix IE 8 alignment of navbar
 .ie8 {
 	.navbar {
-		.brand { text-align: right; text-transform: uppercase; }
+		.brand { 
+			text-align: right; }
+		.menu {
+			li {
+				a { font-size: 1em; }
+			}
+		}
 	}
 }

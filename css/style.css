@@ -5724,8 +5724,9 @@ p.caption {
     padding: 0; }
 
 .ie8 .navbar .brand {
-  text-align: right;
-  text-transform: uppercase; }
+  text-align: right; }
+.ie8 .navbar .menu li a {
+  font-size: 1em; }
 
 /* Identity */
 /***************************/
