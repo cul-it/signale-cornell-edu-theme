@@ -99,7 +99,7 @@
     $(document).ready(function() { 
     var randomImages = ['etching1','etching2','etching3','etching4']; 
     var rndNum = Math.floor(Math.random() * randomImages.length); 
-    $(".hero").css({ background: "url(/sites/all/themes/signale/images/hero/" + randomImages[rndNum] + ".jpg) no-repeat" }); });
+    $(".hero").css({ background: "url('/sites/all/themes/signale/images/hero/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
   </script>
 </body>
 </html>
