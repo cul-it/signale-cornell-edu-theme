@@ -39,6 +39,13 @@
 			padding: 4px 12px;
 			margin-bottom: 4px; }
 		a:hover { background: #0099b2; }
+		.btn-gray {
+			display: inline-block;
+			background: $grayedOut;
+			color: white;
+			padding: 4px 12px;
+			margin-bottom: 4px;
+		}
 	}
 	.purchase-options {
 		font-size: 1.125em;

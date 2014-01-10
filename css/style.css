@@ -6089,6 +6089,12 @@ ul.jcarousel > li.jcarousel-item {
       margin-bottom: 4px; }
     .book-listing .purchase-link a:hover {
       background: #0099b2; }
+    .book-listing .purchase-link .btn-gray {
+      display: inline-block;
+      background: #bfc9cd;
+      color: white;
+      padding: 4px 12px;
+      margin-bottom: 4px; }
   .book-listing .purchase-options {
     font-size: 1.125em;
     font-weight: 900; }
