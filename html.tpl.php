@@ -97,7 +97,7 @@
   <?php print $page_bottom; ?>
   <script>
     (function($) {
-      $('a').tooltip-link();
+      $('a.tooltip-link').tooltip();
       })(jQuery);
   </script>
 </body>
