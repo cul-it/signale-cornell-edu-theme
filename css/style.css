@@ -6089,7 +6089,7 @@ ul.jcarousel > li.jcarousel-item {
       margin-bottom: 4px; }
     .book-listing .purchase-link a:hover {
       background: #0099b2; }
-    .book-listing .purchase-link .btn-gray {
+    .book-listing .purchase-link .btn-gray, .book-listing .purchase-link .btn-gray:hover {
       display: inline-block;
       background: #bfc9cd;
       color: white;
