@@ -4253,35 +4253,30 @@ a.label:hover, a.badge:hover {
 
   to {
     background-position: 0 0; } }
-
 @-moz-keyframes progress-bar-stripes {
   from {
     background-position: 40px 0; }
 
   to {
     background-position: 0 0; } }
-
 @-ms-keyframes progress-bar-stripes {
   from {
     background-position: 40px 0; }
 
   to {
     background-position: 0 0; } }
-
 @-o-keyframes progress-bar-stripes {
   from {
     background-position: 0 0; }
 
   to {
     background-position: 40px 0; } }
-
 @keyframes progress-bar-stripes {
   from {
     background-position: 40px 0; }
 
   to {
     background-position: 0 0; } }
-
 .progress {
   overflow: hidden;
   height: 20px;
@@ -5562,31 +5557,26 @@ a.label:hover, a.badge:hover {
   src: url("../font/museo300-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/museo300-regular-webfont.woff") format("woff"), url("../font/museo300-regular-webfont.ttf") format("truetype"), url("../font/museo300-regular-webfont.svg#museo300") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'museo500';
   src: url("../font/museo500-regular-webfont.eot");
   src: url("../font/museo500-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/museo500-regular-webfont.woff") format("woff"), url("../font/museo500-regular-webfont.ttf") format("truetype"), url("../font/museo500-regular-webfont.svg#museo500") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'museo700';
   src: url("../font/museo700-regular-webfont.eot");
   src: url("../font/museo700-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/museo700-regular-webfont.woff") format("woff"), url("../font/museo700-regular-webfont.ttf") format("truetype"), url("../font/museo700-regular-webfont.svg#museo700") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'MercuryBold';
   src: url("../font/257858_4_0.eot");
   src: url("../font/257858_4_0.eot?#iefix") format("embedded-opentype"), url("../font/257858_4_0.woff") format("woff"), url("../font/257858_4_0.ttf") format("truetype"); }
-
 @font-face {
   font-family: 'MercuryRegular';
   src: url("../font/257858_7_0.eot");
   src: url("../font/257858_7_0.eot?#iefix") format("embedded-opentype"), url("../font/257858_7_0.woff") format("woff"), url("../font/257858_7_0.ttf") format("truetype"); }
-
 body {
   font-size: 100%;
   font-family: "museo300";
@@ -6103,6 +6093,13 @@ ul.jcarousel > li.jcarousel-item {
     margin: 10px 0 0 0; }
     .book-listing .book-formats a, .book-listing .book-formats .inactive {
       margin-right: 5px; }
+  .book-listing .open-access-link {
+    font-size: 1.125em;
+    margin: 0 0 1em;
+    font-weight: bold; }
+  .book-listing .open-access {
+    padding-top: .5em;
+    display: block; }
 
 .views-row-first .book-listing {
   padding-top: 0; }
