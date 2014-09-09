@@ -6201,7 +6201,10 @@ ul.jcarousel > li.jcarousel-item {
 
   .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
     width: 95%;
-    height: auto !important; } }
+    height: auto !important; }
+
+  .open-access {
+    line-height: 1.25em; } }
 @media (max-width: 767px) {
   body {
     padding: 0;
