@@ -83,12 +83,14 @@
 		font-weight: bold;
 	}
 	.open-access {
-		padding-top: .5em;
+		// padding-top: .5em;
 		display: block;
 		background: url("../images/book-icons.png") no-repeat;
 		background-position: -120px -40px;
-		padding-left: 45px;
+		padding-left: 50px;
 		height: 40px;
+		line-height: 2.25em;
+		margin-top: .5em;
 	}
 	.open-access:hover {
 		background-position: -120px -80px;
