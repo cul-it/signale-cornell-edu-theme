@@ -5923,35 +5923,6 @@ footer {
   float: right;
   margin: 35px 60px 30px 0; }
 
-.book-formats {
-  margin: 15px 0 0 30px; }
-  .book-formats a, .book-formats .inactive {
-    text-indent: -99999px;
-    display: block;
-    width: 40px;
-    height: 40px;
-    float: left;
-    margin-right: 10px;
-    background: url("../images/book-formats.png") no-repeat; }
-  .book-formats a.cu-press {
-    background-position: 0 -40px; }
-  .book-formats a.cu-press:hover {
-    background-position: 0 -80px; }
-  .book-formats a.amazon {
-    background-position: -40px -40px; }
-  .book-formats a.amazon:hover {
-    background-position: -40px -80px; }
-  .book-formats a.google-books {
-    background-position: -80px -40px; }
-  .book-formats a.google-books:hover {
-    background-position: -80px -80px; }
-  .book-formats .cu-press-inactive {
-    background-position: 0 0; }
-  .book-formats .amazon-inactive {
-    background-position: -40px 0; }
-  .book-formats .google-books-inactive {
-    background-position: -80px 0; }
-
 /* Featured content */
 /***************************/
 .panel-display h2.pane-title {
@@ -6038,9 +6009,38 @@ ul.jcarousel > li.jcarousel-item {
 
 /* Books page - list */
 /***************************/
+.book-formats {
+  margin: 15px 0 0 30px; }
+  .book-formats a, .book-formats .inactive {
+    text-indent: -99999px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    background: url("../images/book-icons.png") no-repeat; }
+  .book-formats a.cu-press {
+    background-position: 0 -40px; }
+  .book-formats a.cu-press:hover {
+    background-position: 0 -80px; }
+  .book-formats a.amazon {
+    background-position: -40px -40px; }
+  .book-formats a.amazon:hover {
+    background-position: -40px -80px; }
+  .book-formats a.google-books {
+    background-position: -80px -40px; }
+  .book-formats a.google-books:hover {
+    background-position: -80px -80px; }
+  .book-formats .cu-press-inactive {
+    background-position: 0 0; }
+  .book-formats .amazon-inactive {
+    background-position: -40px 0; }
+  .book-formats .google-books-inactive {
+    background-position: -80px 0; }
+
 .book-listing {
   padding: 30px 0;
-  background: url("/sites/all/themes/signale/images/hr-bg.png") no-repeat bottom; }
+  background: url("../images/hr-bg.png") no-repeat bottom; }
   .book-listing span {
     display: block;
     font-size: 1.375em;
@@ -6061,7 +6061,7 @@ ul.jcarousel > li.jcarousel-item {
     font-weight: normal;
     font-family: 'museo700'; }
   .book-listing .book-info {
-    background: url("/sites/all/themes/signale/images/side-divider.png") no-repeat top right;
+    background: url("../images/side-divider.png") no-repeat top right;
     padding-bottom: 50px; }
   .book-listing .publisher {
     margin: 1em 0 0.5em 0; }
@@ -6099,7 +6099,11 @@ ul.jcarousel > li.jcarousel-item {
     font-weight: bold; }
   .book-listing .open-access {
     padding-top: .5em;
-    display: block; }
+    display: block;
+    background: url("../images/book-icons.png") no-repeat;
+    background-position: -120px -40px; }
+  .book-listing .open-access:hover {
+    background-position: -120px -80px; }
 
 .views-row-first .book-listing {
   padding-top: 0; }
