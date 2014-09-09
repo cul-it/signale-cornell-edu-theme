@@ -6096,15 +6096,15 @@ ul.jcarousel > li.jcarousel-item {
   .book-listing .open-access-link {
     font-size: 1.125em;
     margin: 0 0 1em;
-    font-weight: bold;
-    background: url("../images/book-icons.png") no-repeat;
-    background-position: -120px -40px;
-    display: block;
-    padding-left: 45px; }
+    font-weight: bold; }
   .book-listing .open-access {
     padding-top: .5em;
-    display: block; }
-  .book-listing .open-access-link:hover {
+    display: block;
+    background: url("../images/book-icons.png") no-repeat;
+    background-position: -120px -40px;
+    padding-left: 45px;
+    height: 40px; }
+  .book-listing .open-access:hover {
     background-position: -120px -80px; }
 
 .views-row-first .book-listing {
