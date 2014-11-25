@@ -8,9 +8,7 @@
  */
 ?>
 
-<?php if (!$page): ?>
-  <h2<?php print $title_attributes; ?>><?php print $title; ?></h2>
-<?php endif; ?>
+
 
 <div class="row">
   <div class="span2">
@@ -19,6 +17,9 @@
     <?php endif; ?>
   </div>
   <div class="span10">
+    <?php if (!$page): ?>
+      <h3><?php print $title_attributes; ?>><?php print $title; ?></h3>
+    <?php endif; ?>
     <?php if (!empty ($content['body'])) : ?>
       <?php print render($content['body']); ?>
     <?php endif; ?>
