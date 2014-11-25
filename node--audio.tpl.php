@@ -22,8 +22,8 @@
 
 <div class="audio-data">
 
-  <?php if (!empty ($content['field_audio2_date'])) : ?>
-    <div class="audio-date"><?php print render($content['field_audio2_date']); ?></div>
+  <?php if (!empty ($content['field_audio2_date']) || ($content['field_audio_duration'])) : ?>
+    <div class="audio-date"><?php print render($content['field_audio2_date']); ?> / <?php print render($content['field_audio_duration']); ?></div>
   <?php endif; ?>
 
   <?php if (!empty ($content['field_audio_context'])) : ?>
