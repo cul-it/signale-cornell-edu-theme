@@ -3,7 +3,11 @@ body {
 	font-family: $baseFontFamily;
 	color: $textColorDark;
 	background: white;
+	padding-top: 0; // bootstrap override 
 }
+
+// Drupal overrides
+html body.admin-menu { margin-top: 0; }
 
 /* Links */
 /***************************/
