@@ -14,6 +14,12 @@
   <?php endif; ?>
 </div>
 
+<div class="audio-embed">
+  <?php if (!empty ($content['field_kaltura_entry_id'])) : ?>
+    <?php print render($content['field_kaltura_entry_id']); ?>
+  <?php endif; ?>
+</div>
+
 <div class="audio-speaker">
   <?php if (!empty ($content['field_audio_speaker'])) : ?>
     <?php print render($content['field_audio_speaker']); ?>
