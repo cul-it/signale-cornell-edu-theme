@@ -6285,6 +6285,14 @@ ul.jcarousel > li.jcarousel-item {
 
 .audio-book h3 {
   display: inline-block; }
+.audio-book a {
+  padding-left: 20px; }
+
+.audio-data .audio-date,
+.audio-data .audio-context,
+.audio-data .audio-language,
+.audio-data .audio-rights {
+  margin-top: 10px; }
 
 .main-content h3 {
   text-transform: none; }
