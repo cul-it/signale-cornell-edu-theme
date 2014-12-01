@@ -6291,7 +6291,8 @@ ul.jcarousel > li.jcarousel-item {
 .audio-data .audio-date,
 .audio-data .audio-context,
 .audio-data .audio-language,
-.audio-data .audio-rights {
+.audio-data .audio-rights,
+.audio-data p {
   margin-top: 10px; }
 
 .main-content h3 {
