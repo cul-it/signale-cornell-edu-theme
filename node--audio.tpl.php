@@ -8,8 +8,6 @@
  */
 ?>
 
-<h1> ---------------------------- </h1>
-
 <div class="audio-book">
   <?php if (!empty ($content['field_audio_book'])) : ?>
     <h3><?php print render($content['field_audio_book']); ?></h3>
@@ -27,8 +25,6 @@
     <?php print render($content['field_audio_speaker']); ?>
   <?php endif; ?>
 </div>
-
-<h1> ---------------------------- </h1>
 
 <div class="audio-data">
 
