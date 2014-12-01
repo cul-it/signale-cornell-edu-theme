@@ -6274,4 +6274,7 @@ ul.jcarousel > li.jcarousel-item {
   .jcarousel-skin-default .jcarousel-item {
     margin: 0px 0.5em 0px 0em; } }
 .audio-speaker {
-  margin-top: 20px; }
+  margin-top: 40px; }
+
+.main-content h3 {
+  text-transform: none; }
