@@ -6283,5 +6283,8 @@ ul.jcarousel > li.jcarousel-item {
     margin-right: 30px;
     margin-bottom: 30px; }
 
+.audio-book h3 {
+  display: inline-block; }
+
 .main-content h3 {
   text-transform: none; }

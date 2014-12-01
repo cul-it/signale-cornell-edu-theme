@@ -10,7 +10,8 @@
 
 <div class="audio-book">
   <?php if (!empty ($content['field_audio_book'])) : ?>
-    <h3><?php print render($content['field_audio_book']); ?> <a href="#">Book Detail</a></h3>
+    <h3><?php print render($content['field_audio_book']); ?></h3>
+    <a href="#">Book Detail</a>
   <?php endif; ?>
 </div>
 
