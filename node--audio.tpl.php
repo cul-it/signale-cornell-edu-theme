@@ -47,7 +47,7 @@
   <?php endif; ?>
 
   <?php if (!empty ($content['body'])) : ?>
-    <?php print render($content['body']); ?>
+    <div class="audio-body"><?php print render($content['body']); ?></div>
   <?php endif; ?>
 
 </div>
