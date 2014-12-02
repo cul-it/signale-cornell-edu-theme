@@ -6289,7 +6289,8 @@ ul.jcarousel > li.jcarousel-item {
   line-height: 1.4em; }
 .audio-book a {
   padding-left: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  display: inline-block; }
 
 .audio-data .audio-date,
 .audio-data .audio-duration,
