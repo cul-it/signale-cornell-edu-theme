@@ -6293,7 +6293,7 @@ ul.jcarousel > li.jcarousel-item {
 .audio-data .audio-context,
 .audio-data .audio-language,
 .audio-data .audio-rights,
-.audio-data p {
+.audio-data .audio-body {
   margin-top: 10px; }
 
 .main-content h3 {
