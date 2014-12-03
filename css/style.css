@@ -6311,7 +6311,7 @@ ul.jcarousel > li.jcarousel-item {
 
 .multimedia-item {
   margin-bottom: 40px;
-  background: url("../images/hr.png") no-repeat top; }
+  background: url("../images/hr-bg.png") no-repeat top; }
   .multimedia-item .icon {
     width: 80px; }
     .multimedia-item .icon .icon-audio {
