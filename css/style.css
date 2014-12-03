@@ -6312,10 +6312,10 @@ ul.jcarousel > li.jcarousel-item {
 .multimedia-item {
   margin-bottom: 40px; }
   .multimedia-item .icon {
-    width: 70px; }
+    width: 80px; }
     .multimedia-item .icon .icon-audio {
-      width: 50px;
-      height: 50px; }
+      width: 70px;
+      height: 70px; }
   .multimedia-item .span10 {
     margin-left: 5px; }
   .multimedia-item h4 {
