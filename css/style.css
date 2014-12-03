@@ -6312,7 +6312,10 @@ ul.jcarousel > li.jcarousel-item {
 .multimedia-item {
   margin-bottom: 40px; }
   .multimedia-item .icon {
-    width: 100px; }
+    width: 90px; }
+    .multimedia-item .icon .icon-audio {
+      width: 80px;
+      height: 80px; }
   .multimedia-item h4 {
     text-transform: none;
     font-family: "museo300"; }
