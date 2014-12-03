@@ -6311,10 +6311,10 @@ ul.jcarousel > li.jcarousel-item {
 
 .multimedia-item {
   margin-bottom: 40px;
+  padding-top: 30px;
   background: url("../images/hr-bg.png") no-repeat top; }
   .multimedia-item .icon {
-    width: 80px;
-    padding-top: 30px; }
+    width: 80px; }
     .multimedia-item .icon .icon-audio {
       width: 70px;
       height: 70px; }
