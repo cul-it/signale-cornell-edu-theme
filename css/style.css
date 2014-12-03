@@ -6308,3 +6308,9 @@ ul.jcarousel > li.jcarousel-item {
 
 .suplement-title {
   margin-bottom: 0; }
+
+.multimedia-item h4 {
+  text-transform: none; }
+.multimedia-item p {
+  font-size: 1.2em;
+  margin-bottom: 5pxl; }
