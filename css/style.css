@@ -6313,4 +6313,4 @@ ul.jcarousel > li.jcarousel-item {
   text-transform: none; }
 .multimedia-item p {
   font-size: 1.2em;
-  margin-bottom: 5pxl; }
+  margin-bottom: 5px !important; }
