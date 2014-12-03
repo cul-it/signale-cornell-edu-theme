@@ -6313,7 +6313,8 @@ ul.jcarousel > li.jcarousel-item {
   margin-bottom: 40px;
   background: url("../images/hr-bg.png") no-repeat top; }
   .multimedia-item .icon {
-    width: 80px; }
+    width: 80px;
+    padding-top: 30px; }
     .multimedia-item .icon .icon-audio {
       width: 70px;
       height: 70px; }
