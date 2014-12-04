@@ -20,8 +20,4 @@
       <?php print render($content['body']); ?>
     <?php endif; ?>
 
-    <p>
-      <a href="/multimedia-supplements">All Multimedia Supplements <i class="icon-chevron-right"> </i></a>
-    </p>
-
 
