@@ -6297,7 +6297,8 @@ ul.jcarousel > li.jcarousel-item {
 
 .audio-data {
   margin-bottom: 30px;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  line-height: 1.6em; }
   .audio-data .audio-date,
   .audio-data .audio-duration,
   .audio-data .audio-context,
@@ -6306,7 +6307,8 @@ ul.jcarousel > li.jcarousel-item {
   .audio-data .audio-body {
     margin-top: 10px; }
   .audio-data .audio-body p {
-    font-size: 1.1em; }
+    font-size: 1.1em;
+    line-height: 1.6em; }
 
 .main-content h3 {
   text-transform: none; }
