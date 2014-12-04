@@ -6295,13 +6295,18 @@ ul.jcarousel > li.jcarousel-item {
 .audio-embed {
   margin-top: 20px; }
 
-.audio-data .audio-date,
-.audio-data .audio-duration,
-.audio-data .audio-context,
-.audio-data .audio-language,
-.audio-data .audio-rights,
-.audio-data .audio-body {
-  margin-top: 10px; }
+.audio-data {
+  margin-bottom: 30px;
+  font-size: 1.1em; }
+  .audio-data .audio-date,
+  .audio-data .audio-duration,
+  .audio-data .audio-context,
+  .audio-data .audio-language,
+  .audio-data .audio-rights,
+  .audio-data .audio-body {
+    margin-top: 10px; }
+  .audio-data .audio-body p {
+    font-size: 1.1em; }
 
 .main-content h3 {
   text-transform: none; }
