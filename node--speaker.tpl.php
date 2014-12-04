@@ -8,9 +8,6 @@
  */
 ?>
 
-
-
-
     <?php if (!empty ($content['field_speaker_photo'])) : ?>
       <?php print render($content['field_speaker_photo']); ?>
     <?php endif; ?>
@@ -23,24 +20,10 @@
       <?php print render($content['body']); ?>
     <?php endif; ?>
 
+    <a href="/multimedia-supplements">All Multimedia Supplements</a>
 
-<!--
+    <p>
+      <a href="/multimedia-supplements">All Multimedia Supplements<i class="icon-chevron-right"> </i></a>
+    </p>
 
-<div class="row">
-  <div class="span2">
-    <?php if (!empty ($content['field_speaker_photo'])) : ?>
-      <?php print render($content['field_speaker_photo']); ?>
-    <?php endif; ?>
-  </div>
-  <div class="span10">
-    <?php if (!$page): ?>
-      <h3><?php print $title_attributes; ?><?php print $title; ?></h3>
-    <?php endif; ?>
-    <?php if (!empty ($content['body'])) : ?>
-      <?php print render($content['body']); ?>
-    <?php endif; ?>
-  </div>
-</div>
-
-  -->
 
