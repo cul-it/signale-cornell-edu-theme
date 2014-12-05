@@ -6334,9 +6334,11 @@ ul.jcarousel > li.jcarousel-item {
     font-size: 1.1em;
     margin-bottom: 5px !important; }
 
-.multimedia-link {
+.page-books .multimedia-link {
   background: none repeat scroll 0 0 #18b9d2;
-  color: white;
+  color: #fff !important;
   display: inline-block;
+  font-size: 1.5em;
   margin-bottom: 4px;
-  padding: 4px 12px; }
+  margin-top: 20px;
+  padding: 10px 12px; }
