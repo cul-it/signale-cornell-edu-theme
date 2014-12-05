@@ -58,7 +58,7 @@
 
 <p>
   <?php
-  echo 'field_audio_book: ' . print_r(array_pop(array_pop($content['field_audio_book'])), TRUE);
+  echo 'field_audio_book: ' . print_r($content['field_audio_book'], TRUE);
   echo 'field_book_node_id: ' . print_r($content['field_book_node_id'], TRUE);
   ?>
 </p>
