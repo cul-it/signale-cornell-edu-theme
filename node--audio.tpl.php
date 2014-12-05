@@ -11,7 +11,7 @@
 <div class="audio-book">
   <?php if (!empty ($content['field_audio_book'])) : ?>
     <h3><?php print render($content['field_audio_book']); ?></h3>
-    <a href="#">Book Detail</a>
+    <a href="<?php echo '/books/' . array_pop(array_pop($content['field_book_node_id'])); ?>">Book Detail</a>
   <?php endif; ?>
 </div>
 
