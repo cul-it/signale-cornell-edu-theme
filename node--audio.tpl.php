@@ -8,13 +8,17 @@
  */
 
 // find the book nid and title
-
+$audio = $content['field_audio_book']['#object'];
+$book_reference = field_get_items('node', $audio, 'field_audio_book');
+$book = $book_reference['0']['node'];
+$book_nid = $book->nid;
+$book_title = $book->title;
 ?>
 
 <div class="audio-book">
   <?php if (!empty ($content['field_audio_book'])) : ?>
     <h3><?php print render($content['field_audio_book']); ?></h3>
-    <a href="<?php echo '/books/' . array_pop(array_pop($content['field_book_node_id'])); ?>">Book Detail</a>
+    <a href="<?php echo '/books/' . $book_nid; ?>">Book Detail</a>
   <?php endif; ?>
 </div>
 
@@ -58,17 +62,3 @@
 <p>
   <a href="/multimedia-supplements">All Multimedia Supplements <i class="icon-chevron-right"> </i></a>
 </p>
-
-<?php
-echo "*************** debugging ouput ************************\n";
-$audio = $content['field_audio_book']['#object'];
-$book_reference = field_get_items('node', $audio, 'field_audio_book');
-$book = $book_reference['0']['node'];
-echo print_r($book, TRUE);
-$book_nid = $book->nid;
-$book_nid = field_get_items('node', $book, 'nid');
-echo print_r($book_nid, TRUE);
-$book_title = $book->title;
-$book_title = field_get_items('node', $book, 'title');
-echo print_r($book_title, TRUE);
-?>
