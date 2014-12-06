@@ -66,7 +66,9 @@ $book_reference = field_get_items('node', $audio, 'field_audio_book');
 $book = $book_reference['0']['node'];
 echo print_r($book, TRUE);
 $book_nid = $book->nid;
+$book_nid = field_get_items('node', $book, 'nid');
 echo print_r($book_nid, TRUE);
 $book_title = $book->title;
+$book_title = field_get_items('node', $book, 'title');
 echo print_r($book_title, TRUE);
 ?>
