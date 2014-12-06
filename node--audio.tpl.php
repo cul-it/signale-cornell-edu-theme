@@ -6,6 +6,9 @@
  * Complete documentation for this file is available online.
  * @see https://drupal.org/node/1728164
  */
+
+// find the book nid and title
+
 ?>
 
 <div class="audio-book">
@@ -55,3 +58,8 @@
 <p>
   <a href="/multimedia-supplements">All Multimedia Supplements <i class="icon-chevron-right"> </i></a>
 </p>
+
+<?php
+echo "*************** debugging ouput ************************\n";
+echo print_r($content['field_audio_book']);
+?>
