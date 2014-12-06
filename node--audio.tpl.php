@@ -61,5 +61,5 @@
 
 <?php
 echo "*************** debugging ouput ************************\n";
-echo print_r($content['field_audio_book']);
+echo print_r($content['field_audio_book']['#object']);
 ?>
