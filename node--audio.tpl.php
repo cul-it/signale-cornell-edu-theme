@@ -62,8 +62,8 @@
 <?php
 echo "*************** debugging ouput ************************\n";
 $audio = $content['field_audio_book']['#object'];
-$book_reference = $audio->field_audio_book;
-$book = field_get_items('node', $audio, 'field_audio_book');
+$book_reference = field_get_items('node', $audio, 'field_audio_book');
+$book = field_get_items('node', $book_reference, 'node');
 //$book_reference_nid = field_view_value('node', $audio, 'field_audio_book', 'nid');
 echo print_r($book);
 ?>
