@@ -61,5 +61,7 @@
 
 <?php
 echo "*************** debugging ouput ************************\n";
-echo print_r($content['field_audio_book']['#object']);
+$audio = $content['field_audio_book']['#object'];
+$book_reference_nid = field_view_value('node', $audio, 'field_audio_book', 'nid');
+echo print_r($book_reference_nid);
 ?>
