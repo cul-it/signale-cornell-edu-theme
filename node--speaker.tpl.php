@@ -14,8 +14,9 @@
 
   
     <?php if (!$page): ?>
-      <h3><?php print $title_attributes; ?><?php print $title; ?></h3>
+      <!--<h3><?php print $title_attributes; ?><?php print $title; ?></h3>-->
     <?php endif; ?>
+
     <?php if (!empty ($content['body'])) : ?>
       <?php print render($content['body']); ?>
     <?php endif; ?>
