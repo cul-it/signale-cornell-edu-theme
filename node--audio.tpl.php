@@ -6,16 +6,25 @@
  * Complete documentation for this file is available online.
  * @see https://drupal.org/node/1728164
  */
+
+// find the book nid and title
+$audio = $content['field_audio_book']['#object'];
+$book_reference = field_get_items('node', $audio, 'field_audio_book');
+$book = $book_reference['0']['node'];
+$book_nid = $book->nid;
+$book_title = $book->title;
 ?>
-
-
 
 <div class="audio-book">
   <?php if (!empty ($content['field_audio_book'])) : ?>
     <h3><?php print render($content['field_audio_book']); ?></h3>
-    <a href="#">Book Detail</a>
+    <a href="<?php echo '/books/' . $book_nid; ?>">Book Detail</a>
   <?php endif; ?>
 </div>
+
+<?php if (!$page): ?>
+      <h3><?php print $title_attributes; ?><?php print $title; ?></h3>
+<?php endif; ?>
 
 <div class="audio-embed">
   <?php if (!empty ($content['field_kaltura_entry_id'])) : ?>
