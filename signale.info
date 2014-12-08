@@ -8,12 +8,13 @@ core        = 7.x
 ; stylesheets[all][] = system.menus.css
 
 stylesheets[all][] = css/style.css
-stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/font-awesome.min.cssa
 
 scripts[] = js/bootstrap.min.js
 scripts[] = js/jsapi.js
 scripts[] = js/respond.min.js
 scripts[] = js/jtruncate.js
+scripts[] = js/jquery-collapser-master/jquery.collapser.js
 
 
 regions[header]         = Header
