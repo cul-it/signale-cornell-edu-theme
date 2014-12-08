@@ -21,13 +21,7 @@ $book_title = $book->title;
     <a href="<?php echo '/books/' . $book_nid; ?>">Book Detail</a>
   <?php endif; ?>
 </div>
-<p>###</p>
-<div class="audio-speaker">
-  <?php if (!empty ($content['field_audio_speaker'])) : ?>
-    <?php print render($content['field_audio_speaker']); ?>
-  <?php endif; ?>
-</div>
-<p>###</p>
+
 <div class="audio-embed">
   <?php if (!empty ($content['field_kaltura_entry_id'])) : ?>
     <?php print render($content['field_kaltura_entry_id']); ?>
