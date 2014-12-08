@@ -22,9 +22,17 @@ $book_title = $book->title;
   <?php endif; ?>
 </div>
 
+<div class="audio-speaker">
+  <?php if (!empty ($content['field_audio_speaker'])) : ?>
+    <?php print render($content['field_audio_speaker']); ?>
+  <?php endif; ?>
+</div>
+
 <div class="audio-author">
   <?php print $title_attributes; ?><?php print $title; ?>
 </div>
+
+<?php print render($content['field_audio_book']); ?>
 
 <div class="audio-embed">
   <?php if (!empty ($content['field_kaltura_entry_id'])) : ?>
@@ -32,11 +40,7 @@ $book_title = $book->title;
   <?php endif; ?>
 </div>
 
-<div class="audio-speaker">
-  <?php if (!empty ($content['field_audio_speaker'])) : ?>
-    <?php print render($content['field_audio_speaker']); ?>
-  <?php endif; ?>
-</div>
+
 
 <div class="audio-data">
 
