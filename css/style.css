@@ -6274,8 +6274,15 @@ ul.jcarousel > li.jcarousel-item {
 
   .jcarousel-skin-default .jcarousel-item {
     margin: 0px 0.5em 0px 0em; } }
-.suplement-title a {
-  color: #fff; }
+.suplement-title {
+  margin-bottom: 10px; }
+  .suplement-title a {
+    color: #fff; }
+
+.book-details {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  display: inline-block; }
 
 .attachment-before {
   margin-bottom: 20px; }
@@ -6290,14 +6297,9 @@ ul.jcarousel > li.jcarousel-item {
     margin-right: 30px;
     margin-bottom: 30px; }
 
-.book-details {
-  padding-left: 20px;
-  margin-bottom: 20px;
-  display: inline-block; }
-
 .audio-book h3 {
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   line-height: 1.4em; }
 .audio-book a {
   padding-left: 20px;

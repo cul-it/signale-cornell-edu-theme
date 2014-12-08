@@ -3,6 +3,14 @@
 	a {
 		color: #fff;
 	}
+	margin-bottom: 10px;
+}
+
+.book-details {
+
+	padding-left: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
 }
 
 .attachment-before {
@@ -29,19 +37,15 @@
 	}
 }
 
-.book-details {
 
-	padding-left: 20px;
-	margin-bottom: 20px;
-	display: inline-block;
-}
 
 .audio-book {
 
 	h3 {
 		display: inline-block;
-		margin-bottom: 0;
+		margin-bottom: 10px;
 		line-height: 1.4em;
+		
 	}
 
 	a {
