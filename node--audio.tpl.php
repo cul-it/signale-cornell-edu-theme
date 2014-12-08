@@ -30,7 +30,7 @@ $book_title = $book->title;
 
 <div class="audio-speaker">
   <?php if (!empty ($content['field_audio_speaker'])) : ?>
-    <p>######</p><?php print render($content['field_audio_speaker']); ?><p>###4444###</p>
+    <?php print render($content['field_audio_speaker']); ?>
   <?php endif; ?>
 </div>
 
