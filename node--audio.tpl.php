@@ -18,14 +18,6 @@ $title = 'Multimedia'
 
 ?>
 
-<?php print render($title_prefix); ?>
-<?php if ($page): ?>
-  <h2<?php print $title_attributes; ?>>
-    Multimedia
-  </h2>
-<?php endif; ?>
-<?php print render($title_suffix); ?>
-
 <div class="audio-book">
   <?php if (!empty ($content['field_audio_book'])) : ?>
     <h3><?php print render($content['field_audio_book']); ?></h3>
@@ -60,8 +52,8 @@ $title = 'Multimedia'
     <div class="audio-language"><?php print render($content['field_audio_language']); ?></div>
   <?php endif; ?>
 
-  <?php if (!empty ($content['field_audio_permissions'])) : ?>
-    <div class="audio-rights"><?php print render($content['field_audio_permissions']); ?></div>
+  <?php if (!empty ($content['field_audio_rights'])) : ?>
+    <div class="audio-rights"><?php print render($content['field_audio_rights']); ?></div>
   <?php endif; ?>
 
   <?php if (!empty ($content['body'])) : ?>
