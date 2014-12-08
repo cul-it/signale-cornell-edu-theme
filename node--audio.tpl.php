@@ -51,8 +51,8 @@ $book_title = $book->title;
     <div class="audio-language"><?php print render($content['field_audio_language']); ?></div>
   <?php endif; ?>
 
-  <?php if (!empty ($content['field_audio_rights'])) : ?>
-    <div class="audio-rights"><?php print render($content['field_audio_rights']); ?></div>
+  <?php if (!empty ($content['field_audio_permissions'])) : ?>
+    <div class="audio-rights"><?php print render($content['field_audio_permissions']); ?></div>
   <?php endif; ?>
 
   <?php if (!empty ($content['body'])) : ?>
