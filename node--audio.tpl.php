@@ -13,9 +13,18 @@ $book_reference = field_get_items('node', $audio, 'field_audio_book');
 $book = $book_reference['0']['node'];
 $book_nid = $book->nid;
 $book_title = $book->title;
+$title = 'Multimedia'
 
 
 ?>
+
+<?php print render($title_prefix); ?>
+<?php if ($page): ?>
+  <h2<?php print $title_attributes; ?>>
+    Multimedia
+  </h2>
+<?php endif; ?>
+<?php print render($title_suffix); ?>
 
 <div class="audio-book">
   <?php if (!empty ($content['field_audio_book'])) : ?>
