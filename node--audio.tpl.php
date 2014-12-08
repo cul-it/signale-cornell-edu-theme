@@ -13,7 +13,6 @@ $book_reference = field_get_items('node', $audio, 'field_audio_book');
 $book = $book_reference['0']['node'];
 $book_nid = $book->nid;
 $book_title = $book->title;
-$title = 'Multimedia'
 
 
 ?>
