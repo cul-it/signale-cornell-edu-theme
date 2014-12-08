@@ -15,14 +15,16 @@ $book_nid = $book->nid;
 $book_title = $book->title;
 ?>
 
-
-<h3>TESTTSTSTTS</h3><h3>TESTTSTSTTS</h3><h3>TESTTSTSTTS</h3>
 <div class="audio-book">
   <?php if (!empty ($content['field_audio_book'])) : ?>
     <h3><?php print render($content['field_audio_book']); ?></h3>
     <a href="<?php echo '/books/' . $book_nid; ?>">Book Detail</a>
   <?php endif; ?>
 </div>
+
+<?php if (!$page): ?>
+      <h3><?php print $title_attributes; ?><?php print $title; ?></h3>
+<?php endif; ?>
 
 <div class="audio-embed">
   <?php if (!empty ($content['field_kaltura_entry_id'])) : ?>
