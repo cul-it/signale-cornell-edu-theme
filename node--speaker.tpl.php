@@ -7,7 +7,7 @@
  * @see https://drupal.org/node/1728164
  */
 ?>
-
+	<h3>TESTTSTSTTS</h3>
     <?php if (!empty ($content['field_speaker_photo'])) : ?>
       <?php print render($content['field_speaker_photo']); ?>
     <?php endif; ?>
