@@ -22,9 +22,9 @@ $book_title = $book->title;
   <?php endif; ?>
 </div>
 
-
-      <h3><?php print $title_attributes; ?><?php print $title; ?></h3>
-
+<div class="audio-author">
+  <?php print $title_attributes; ?><?php print $title; ?>
+</div>
 
 <div class="audio-embed">
   <?php if (!empty ($content['field_kaltura_entry_id'])) : ?>
