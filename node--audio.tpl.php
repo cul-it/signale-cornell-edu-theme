@@ -14,9 +14,9 @@ $book = $book_reference['0']['node'];
 $book_nid = $book->nid;
 $book_title = $book->title;
 
-$book->title = 'MULTIMEDIA';
+
 ?>
-  <a href="<?php echo $book->title; ?>"></a>
+
 <div class="audio-book">
   <?php if (!empty ($content['field_audio_book'])) : ?>
     <h3><?php print render($content['field_audio_book']); ?></h3>
