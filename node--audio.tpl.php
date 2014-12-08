@@ -28,6 +28,8 @@ $book_title = $book->title;
   <?php endif; ?>
 </div>
 
+<p>---</p><?php echo $book_title; ?><p>---</p>
+
 <div class="audio-speaker">
   <?php if (!empty ($content['field_audio_speaker'])) : ?>
     <?php print render($content['field_audio_speaker']); ?>
