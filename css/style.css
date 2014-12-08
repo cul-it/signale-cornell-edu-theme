@@ -6274,9 +6274,9 @@ ul.jcarousel > li.jcarousel-item {
 
   .jcarousel-skin-default .jcarousel-item {
     margin: 0px 0.5em 0px 0em; } }
-.suplement-title {
-  margin-bottom: 10px; }
-  .suplement-title a {
+h3.suplement-title {
+  margin-bottom: 10px !important; }
+  h3.suplement-title a {
     color: #fff; }
 
 .book-details {
