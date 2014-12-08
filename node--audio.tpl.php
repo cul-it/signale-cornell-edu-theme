@@ -21,11 +21,13 @@ $book_title = $book->title;
     <a href="<?php echo '/books/' . $book_nid; ?>">Book Detail</a>
   <?php endif; ?>
 </div>
-
-<?php if (!$page): ?>
-      <h3><?php print $title_attributes; ?><?php print $title; ?></h3>
-<?php endif; ?>
-
+<p>###</p>
+<div class="audio-speaker">
+  <?php if (!empty ($content['field_audio_speaker'])) : ?>
+    <?php print render($content['field_audio_speaker']); ?>
+  <?php endif; ?>
+</div>
+<p>###</p>
 <div class="audio-embed">
   <?php if (!empty ($content['field_kaltura_entry_id'])) : ?>
     <?php print render($content['field_kaltura_entry_id']); ?>
