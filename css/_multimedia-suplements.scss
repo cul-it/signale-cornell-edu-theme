@@ -60,12 +60,17 @@ h3.suplement-title {
 .main-content {
 	.audio-title {
 		clear: both;
+		overflow: hidden;
 		h4 {
 			text-transform: none;
 			font-weight: normal;
+			float: left;
 		}
 		.speaker {
-			
+			float: left;
+			display: inline-block;
+			line-height: 3em;
+			margin-left: 1em;
 		}
 	}
 }

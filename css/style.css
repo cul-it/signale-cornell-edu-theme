@@ -6302,10 +6302,17 @@ h3.suplement-title {
   display: inline-block; }
 
 .main-content .audio-title {
-  clear: both; }
+  clear: both;
+  overflow: hidden; }
   .main-content .audio-title h4 {
     text-transform: none;
-    font-weight: normal; }
+    font-weight: normal;
+    float: left; }
+  .main-content .audio-title .speaker {
+    float: left;
+    display: inline-block;
+    line-height: 3em;
+    margin-left: 1em; }
 
 .audio-embed {
   margin-top: 20px; }
