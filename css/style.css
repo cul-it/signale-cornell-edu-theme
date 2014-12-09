@@ -6282,7 +6282,9 @@ h3.suplement-title {
 .book-details {
   padding-left: 20px;
   margin-bottom: 20px;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: bold; }
 
 .multimedia-book-description {
   font-size: 1.1em;
@@ -6312,7 +6314,9 @@ h3.suplement-title {
 .audio-book a {
   padding-left: 20px;
   margin-bottom: 20px;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: bold; }
 
 .main-content .audio-title {
   clear: both;
