@@ -107,9 +107,13 @@ h3.suplement-title {
 	.audio-language,
 	.audio-rights,
 	.audio-body,
-	.audio-related-text {
+	.audio-related-text, 
+	.text-supplement {
 
 		margin-top: 10px;
+	}
+	.text-supplement {
+		margin-bottom: 10px; 
 	}
 
 	.audio-body {
@@ -117,6 +121,11 @@ h3.suplement-title {
 		p {
 			font-size: 1.1em;
 			line-height: 1.6em;
+		}
+	}
+	.audio-rights {
+		p {
+			margin-bottom: 0;
 		}
 	}
 }
