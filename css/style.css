@@ -6290,7 +6290,11 @@ h3.suplement-title {
     display: block;
     float: left;
     margin-right: 30px;
-    margin-bottom: 30px; }
+    margin-bottom: 10px; }
+
+.photo-copyright {
+  font-size: .75em;
+  color: #666; }
 
 .audio-book h3 {
   display: inline-block;
@@ -6326,7 +6330,8 @@ h3.suplement-title {
   .audio-data .audio-context,
   .audio-data .audio-language,
   .audio-data .audio-rights,
-  .audio-data .audio-body {
+  .audio-data .audio-body,
+  .audio-data .audio-related-text {
     margin-top: 10px; }
   .audio-data .audio-body p {
     font-size: 1.1em;

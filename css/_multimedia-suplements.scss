@@ -34,12 +34,15 @@ h3.suplement-title {
 		display: block;
 		float: left;
 		margin-right: 30px;
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 
 	}
 }
 
-
+.photo-copyright {
+	font-size: .75em;
+	color: #666;
+}
 
 .audio-book {
 
@@ -91,7 +94,8 @@ h3.suplement-title {
 	.audio-context,
 	.audio-language,
 	.audio-rights,
-	.audio-body {
+	.audio-body,
+	.audio-related-text {
 
 		margin-top: 10px;
 	}
