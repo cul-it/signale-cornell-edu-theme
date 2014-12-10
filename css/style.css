@@ -6343,9 +6343,11 @@ h3.suplement-title {
     margin-top: 10px; }
   .audio-data .text-supplement {
     margin-bottom: 10px; }
-  .audio-data .audio-body p {
-    font-size: 1.1em;
-    line-height: 1.6em; }
+  .audio-data .audio-body {
+    margin-top: 10px; }
+    .audio-data .audio-body p {
+      font-size: 1.1em;
+      line-height: 1.6em; }
   .audio-data .audio-rights p {
     margin-bottom: 0; }
 
