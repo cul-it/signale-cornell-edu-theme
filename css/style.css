@@ -6349,7 +6349,10 @@ h3.suplement-title {
       font-size: 1.1em;
       line-height: 1.6em; }
   .audio-data .audio-rights p {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-size: 1em; }
+  .audio-data .audio-related-text p {
+    font-size: 1em; }
 
 .main-content h3 {
   text-transform: none; }
