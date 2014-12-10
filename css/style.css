@@ -6301,6 +6301,8 @@ h3.suplement-title {
 #audio-speaker-biography {
   font-size: 1.1em;
   line-height: 1.6em; }
+  #audio-speaker-biography p {
+    font-size: 1em; }
 
 .photo-copyright {
   font-size: .75em;
