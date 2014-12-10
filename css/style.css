@@ -6339,14 +6339,7 @@ h3.suplement-title {
   margin-bottom: 30px;
   font-size: 1.1em;
   line-height: 1.6em; }
-  .audio-data .audio-date,
-  .audio-data .audio-duration,
-  .audio-data .audio-context,
-  .audio-data .audio-language,
-  .audio-data .audio-rights,
-  .audio-data .audio-body,
-  .audio-data .audio-related-text,
-  .audio-data .text-supplement {
+  .audio-data .audio-date {
     margin-top: 10px; }
   .audio-data .text-supplement {
     margin-bottom: 10px; }
