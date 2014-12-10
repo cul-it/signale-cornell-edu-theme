@@ -6298,6 +6298,10 @@ h3.suplement-title {
     margin-right: 30px;
     margin-bottom: 10px; }
 
+#audio-speaker-biography {
+  font-size: 1.1em;
+  line-height: 1.6em; }
+
 .photo-copyright {
   font-size: .75em;
   color: #666; }
