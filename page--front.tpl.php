@@ -120,7 +120,6 @@
       </div>
       <div class="span5 offset1">
         <?php print render($page['new-book']); ?>
-        ####
       </div>
     </div>
   </div>
