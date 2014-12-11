@@ -6290,7 +6290,9 @@ h3.suplement-title {
 
 .audio-speaker {
   margin-top: 30px;
-  overflow: hidden; }
+  margin-bottom: 20px;
+  overflow: hidden;
+  background: url("../images/hr-bg.png") no-repeat bottom; }
   .audio-speaker h3 {
     margin-bottom: 10px; }
   .audio-speaker img {
