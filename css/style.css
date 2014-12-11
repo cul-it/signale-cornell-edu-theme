@@ -6289,8 +6289,8 @@ h3.suplement-title {
   margin-bottom: 20px; }
 
 .audio-speaker {
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin: 30px 0 20px 0;
+  padding-bottom: 10px;
   overflow: hidden;
   background: url("../images/hr-bg.png") no-repeat bottom; }
   .audio-speaker h3 {
