@@ -6289,7 +6289,8 @@ h3.suplement-title {
   margin-bottom: 20px; }
 
 .audio-speaker {
-  margin-top: 30px; }
+  margin-top: 30px;
+  overflow: hidden; }
   .audio-speaker h3 {
     margin-bottom: 10px; }
   .audio-speaker img {
