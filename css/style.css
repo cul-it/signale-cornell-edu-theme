@@ -6353,7 +6353,8 @@ h3.suplement-title {
     margin-bottom: 0;
     font-size: 1em; }
   .audio-data .audio-related-text p {
-    font-size: 1em; }
+    font-size: 1em;
+    margin-bottom: 0; }
 
 .main-content h3 {
   text-transform: none; }
