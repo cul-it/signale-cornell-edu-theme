@@ -6354,6 +6354,9 @@ h3.suplement-title {
   .audio-data .audio-rights p {
     margin-bottom: 0;
     font-size: 1em; }
+  .audio-data .audio-rights b, .audio-data .audio-rights strong {
+    float: left;
+    margin-right: .25em; }
   .audio-data .audio-related-text p {
     font-size: 1em;
     margin-bottom: 0; }

@@ -142,6 +142,10 @@ h3.suplement-title {
 			margin-bottom: 0;
 			font-size: 1em;
 		}
+		b, strong {
+			float: left; // make permissions label inline
+			margin-right: .25em;
+		}
 	}
 	.audio-related-text {
 		p {
