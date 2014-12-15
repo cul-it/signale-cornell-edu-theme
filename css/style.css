@@ -6284,6 +6284,8 @@ h3.suplement-title {
 .multimedia-book-description {
   font-size: 1.1em;
   line-height: 1.6em; }
+  .multimedia-book-description p {
+    font-size: 1em; }
 
 .attachment-before {
   margin-bottom: 20px; }
