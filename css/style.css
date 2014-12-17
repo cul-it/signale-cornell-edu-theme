@@ -7737,3 +7737,7 @@ h3.suplement-title {
   margin-bottom: 4px;
   margin-top: 20px;
   padding: 10px 12px; }
+
+.related-content-item i {
+  color: #18b9d2;
+  font-size: 125%; }
