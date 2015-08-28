@@ -99,7 +99,8 @@ h3.suplement-title {
 			margin-left: 1em;
 		}
 	}
-	.view-multimedia {
+	// format permissions label/header
+	.audio-data {
 		h4 {
 			text-transform: none;
 			font-size: 1em;
@@ -233,6 +234,7 @@ h3.suplement-title {
 	}
 }
 
+// audio/text permissions
 .permissions {
 	margin-left: 1.5em;
 }
