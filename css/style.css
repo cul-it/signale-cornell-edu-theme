@@ -316,7 +316,7 @@ a:hover {
     *margin-left: 87.12766%; }
   .row-fluid .offset10:first-child {
     margin-left: 85.10638%;
-    *margin-left: 85.0%; }
+    *margin-left: 85%; }
   .row-fluid .offset9 {
     margin-left: 78.7234%;
     *margin-left: 78.61702%; }
@@ -7109,7 +7109,8 @@ p.caption {
 /* Main text content */
 /***************************/
 .main-content {
-  color: #486570; }
+  color: #486570;
+  margin-top: 5em; }
   .main-content .container {
     margin-top: 30px; }
   .main-content h3 {
