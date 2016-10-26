@@ -3,8 +3,12 @@
 }
 
 .image-cell {
-	padding: 10px;
+	padding: 0 2em 3em 2em;
 }
 .folder {
 	text-align: center;
+	margin-top: 1em;
+	a {
+		font-size: 16px;
+	}
 }

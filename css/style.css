@@ -7732,9 +7732,12 @@ h3.suplement-title {
   margin: 0 auto; }
 
 .image-cell {
-  padding: 10px; }
+  padding: 0 2em 3em 2em; }
 
 .folder {
-  text-align: center; }
+  text-align: center;
+  margin-top: 1em; }
+  .folder a {
+    font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */
