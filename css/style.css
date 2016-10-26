@@ -7455,7 +7455,7 @@ ul.jcarousel > li.jcarousel-item {
   .page-books-reader .page-title h2 {
     display: none; }
 
-.view-display-id-page_2 {
+.view-books .view-display-id-page_2 {
   height: 900px; }
 
 /* Book page */
@@ -7741,11 +7741,11 @@ h3.suplement-title {
     font-size: 20px; }
 
 h2.folder-name {
-  background: #18b9d2;
+  background: #62839a;
   color: white;
   text-transform: uppercase;
   padding: 10px 20px;
-  font-size: 2em;
+  font-size: 1.8em;
   display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
