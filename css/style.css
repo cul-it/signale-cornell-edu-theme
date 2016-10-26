@@ -7744,7 +7744,8 @@ h2.folder-name {
   background: #18b9d2;
   color: white;
   text-transform: uppercase;
-  padding: 20px;
-  font-size: 2em; }
+  padding: 10px 20px;
+  font-size: 2em;
+  display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
