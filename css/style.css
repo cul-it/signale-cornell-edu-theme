@@ -6901,8 +6901,6 @@ body {
 html body.admin-menu {
   margin-top: 0; }
 
-/* Links */
-/***************************/
 a,
 a:visited {
   color: #18b9d2; }
@@ -6911,8 +6909,6 @@ a:hover,
 a:active {
   text-decoration: none; }
 
-/* Typography */
-/***************************/
 h1 {
   color: white;
   font-size: 6em;
@@ -6939,8 +6935,6 @@ li {
   font-size: 1.1em;
   line-height: 1.5em; }
 
-/* Miscellaneous */
-/***************************/
 p.top-link,
 p.next-link {
   text-align: right;
@@ -6963,6 +6957,11 @@ p.caption {
 
 .align-right {
   text-align: right; }
+
+.breadcrumb {
+  background-color: white;
+  padding: 8px 0;
+  border-radius: 0; }
 
 .cornell-brand {
   font-family: verdana, sans-serif;
