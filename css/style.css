@@ -6962,6 +6962,8 @@ p.caption {
   background-color: white;
   padding: 8px 0;
   border-radius: 0; }
+  .breadcrumb a {
+    color: #333; }
 
 .cornell-brand {
   font-family: verdana, sans-serif;
