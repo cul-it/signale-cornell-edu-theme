@@ -7768,4 +7768,7 @@ h2.folder-name {
 .audio-caption p:after {
   content: "\""; }
 
+.ss-asset {
+  padding-bottom: 1em; }
+
 /*# sourceMappingURL=style.css.map */
