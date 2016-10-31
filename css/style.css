@@ -7763,9 +7763,9 @@ h2.folder-name {
   font-size: 14px; }
 
 .audio-caption:before {
-  content: "&ldquo;"; }
+  content: "\&ldquo;"; }
 
 .audio-caption:after {
-  content: "&rdquo;"; }
+  content: "\&rdquo;"; }
 
 /*# sourceMappingURL=style.css.map */
