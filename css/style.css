@@ -7112,7 +7112,8 @@ p.caption {
 /***************************/
 .main-content {
   color: #486570;
-  margin-top: 5em; }
+  margin-top: 5em;
+  padding-bottom: 3em; }
   .main-content .container {
     margin-top: 30px; }
   .main-content h3 {
@@ -7754,5 +7755,17 @@ h2.folder-name {
 
 .image-caption p {
   font-size: 20px; }
+
+.audio-caption-speaker {
+  margin: 1.5em 0; }
+
+.audio-caption {
+  font-size: 14px; }
+
+.audio-caption:before {
+  content: "&ldquo;"; }
+
+.audio-caption:after {
+  content: "&rdquo;"; }
 
 /*# sourceMappingURL=style.css.map */

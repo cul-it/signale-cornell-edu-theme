@@ -28,3 +28,15 @@ h2.folder-name {
 		font-size: 20px;
 	}
 }
+.audio-caption-speaker {
+	margin: 1.5em 0;
+}
+.audio-caption {
+	font-size: 14px;
+}
+.audio-caption:before {
+	content: "&ldquo;";
+}
+.audio-caption:after {
+	content: "&rdquo;";
+}
