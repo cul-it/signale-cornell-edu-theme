@@ -7762,10 +7762,10 @@ h2.folder-name {
 .audio-caption {
   font-size: 14px; }
 
-.audio-caption:before {
+.audio-caption p:before {
   content: "\""; }
 
-.audio-caption:after {
+.audio-caption p:after {
   content: "\""; }
 
 /*# sourceMappingURL=style.css.map */
