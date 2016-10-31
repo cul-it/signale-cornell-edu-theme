@@ -7734,8 +7734,9 @@ h3.suplement-title {
   margin: 0 auto; }
 
 .image-cell {
-  padding: 0 2em 3em 2em;
-  vertical-align: top; }
+  padding: 2em;
+  vertical-align: top;
+  text-align: center; }
 
 .folder {
   text-align: center;
