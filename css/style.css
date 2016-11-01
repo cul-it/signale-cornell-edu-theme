@@ -6965,7 +6965,10 @@ a.btn.btn-signale {
   box-shadow: none;
   background: #18b9d2;
   color: white;
-  padding: 10px 12px; }
+  padding: 10px 12px;
+  font-size: 18px; }
+  a.btn.btn-signale i {
+    margin-right: .25em; }
 
 .breadcrumb {
   background-color: white;
