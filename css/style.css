@@ -7589,7 +7589,13 @@ ul.jcarousel > li.jcarousel-item {
 
   .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
     width: 250px;
-    height: auto !important; } }
+    height: auto !important; }
+
+  .set-navigation {
+    float: left; }
+
+  .image-navigation {
+    float: right; } }
 @media (max-width: 480px) {
   .navbar .brand {
     margin-left: -15px; }
