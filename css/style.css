@@ -7475,141 +7475,6 @@ ul.jcarousel > li.jcarousel-item {
 
 /* Book page */
 /***************************/
-@media (min-width: 980px) and (max-width: 1199px) {
-  .navbar .container {
-    width: 940px; }
-  .navbar .menu li a {
-    font-size: 0.875em; }
-
-  footer nav ul.menu li {
-    font-size: 1em; }
-
-  .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
-    width: 95%;
-    height: auto !important; } }
-@media (min-width: 768px) and (max-width: 979px) {
-  .navbar .container {
-    width: 724px; }
-  .navbar .brand {
-    font-size: 6em; }
-  .navbar .nav li a {
-    font-size: 1em; }
-  .navbar .menu {
-    margin-top: 30px; }
-  .navbar .btn-navbar {
-    display: none; }
-
-  .nav-collapse,
-  .nav-collapse.collapse {
-    overflow: visible; }
-
-  .nav-collapse .nav > li {
-    float: left;
-    font-size: 90%; }
-
-  .site-identity h2 {
-    font-size: 2em; }
-  .site-identity p {
-    font-size: 1.1em; }
-
-  .new-book {
-    margin-right: 0; }
-
-  .editor-secondary img {
-    margin-right: 2px; }
-
-  footer nav ul.menu li {
-    font-size: .875em; }
-  footer .region-footer-secondary p {
-    font-size: .875em; }
-
-  .page-books .page-title h2 {
-    width: 100%; }
-
-  .book-listing img {
-    width: 100%; }
-
-  .page-books-reader .pull-right {
-    float: none; }
-  .page-books-reader .highlight {
-    display: inline-block; }
-
-  .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
-    width: 95%;
-    height: auto !important; }
-
-  .book-listing .open-access {
-    line-height: 1.25em; } }
-@media (max-width: 767px) {
-  body {
-    padding: 0;
-    margin: 0;
-    font-size: 90%; }
-
-  .navbar .container {
-    width: auto;
-    padding: 0 10px; }
-  .navbar .menu {
-    margin-top: 30px; }
-  .navbar .btn-navbar {
-    background: #18b9d2;
-    margin-top: 10px; }
-  .navbar .btn-navbar:hover {
-    background: #18b9d2; }
-  .navbar .nav {
-    float: none; }
-    .navbar .nav li a,
-    .navbar .nav li a:hover {
-      background-image: none; }
-
-  .container {
-    padding: 0 10px; }
-
-  .site-identity {
-    margin-bottom: 30px; }
-    .site-identity h2 {
-      font-size: 2em;
-      padding: 15px 15px 10px 15px; }
-    .site-identity p {
-      font-size: 1.2em; }
-
-  .new-book {
-    margin-top: 0;
-    float: none; }
-
-  .page-books .page-title h2 {
-    font-size: 1.75em; }
-
-  .page-books-reader .navbar .btn-navbar {
-    display: none; }
-  .page-books-reader .pull-right {
-    float: none; }
-  .page-books-reader .highlight {
-    display: inline-block; }
-
-  .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
-    width: 250px;
-    height: auto !important; }
-
-  .set-navigation {
-    float: none; }
-
-  .image-navigation {
-    float: none; } }
-@media (max-width: 480px) {
-  .navbar .brand {
-    margin-left: -15px; }
-
-  .page-books .page-title h2 {
-    margin-top: 50px;
-    line-height: 1.25em;
-    font-size: 1.5em; }
-
-  .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
-    width: 230px; }
-
-  .jcarousel-skin-default .jcarousel-item {
-    margin: 0px 0.5em 0px 0em; } }
 h3.suplement-title {
   margin-bottom: 10px !important; }
   h3.suplement-title a {
@@ -7800,5 +7665,141 @@ h2.folder-name {
 
 .image-navigation {
   float: right; }
+
+@media (min-width: 980px) and (max-width: 1199px) {
+  .navbar .container {
+    width: 940px; }
+  .navbar .menu li a {
+    font-size: 0.875em; }
+
+  footer nav ul.menu li {
+    font-size: 1em; }
+
+  .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
+    width: 95%;
+    height: auto !important; } }
+@media (min-width: 768px) and (max-width: 979px) {
+  .navbar .container {
+    width: 724px; }
+  .navbar .brand {
+    font-size: 6em; }
+  .navbar .nav li a {
+    font-size: 1em; }
+  .navbar .menu {
+    margin-top: 30px; }
+  .navbar .btn-navbar {
+    display: none; }
+
+  .nav-collapse,
+  .nav-collapse.collapse {
+    overflow: visible; }
+
+  .nav-collapse .nav > li {
+    float: left;
+    font-size: 90%; }
+
+  .site-identity h2 {
+    font-size: 2em; }
+  .site-identity p {
+    font-size: 1.1em; }
+
+  .new-book {
+    margin-right: 0; }
+
+  .editor-secondary img {
+    margin-right: 2px; }
+
+  footer nav ul.menu li {
+    font-size: .875em; }
+  footer .region-footer-secondary p {
+    font-size: .875em; }
+
+  .page-books .page-title h2 {
+    width: 100%; }
+
+  .book-listing img {
+    width: 100%; }
+
+  .page-books-reader .pull-right {
+    float: none; }
+  .page-books-reader .highlight {
+    display: inline-block; }
+
+  .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
+    width: 95%;
+    height: auto !important; }
+
+  .book-listing .open-access {
+    line-height: 1.25em; } }
+@media (max-width: 767px) {
+  body {
+    padding: 0;
+    margin: 0;
+    font-size: 90%; }
+
+  .navbar .container {
+    width: auto;
+    padding: 0 10px; }
+  .navbar .menu {
+    margin-top: 30px; }
+  .navbar .btn-navbar {
+    background: #18b9d2;
+    margin-top: 10px; }
+  .navbar .btn-navbar:hover {
+    background: #18b9d2; }
+  .navbar .nav {
+    float: none; }
+    .navbar .nav li a,
+    .navbar .nav li a:hover {
+      background-image: none; }
+
+  .container {
+    padding: 0 10px; }
+
+  .site-identity {
+    margin-bottom: 30px; }
+    .site-identity h2 {
+      font-size: 2em;
+      padding: 15px 15px 10px 15px; }
+    .site-identity p {
+      font-size: 1.2em; }
+
+  .new-book {
+    margin-top: 0;
+    float: none; }
+
+  .page-books .page-title h2 {
+    font-size: 1.75em; }
+
+  .page-books-reader .navbar .btn-navbar {
+    display: none; }
+  .page-books-reader .pull-right {
+    float: none; }
+  .page-books-reader .highlight {
+    display: inline-block; }
+
+  .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
+    width: 250px;
+    height: auto !important; }
+
+  .set-navigation {
+    float: none; }
+
+  .image-navigation {
+    float: none; } }
+@media (max-width: 480px) {
+  .navbar .brand {
+    margin-left: -15px; }
+
+  .page-books .page-title h2 {
+    margin-top: 50px;
+    line-height: 1.25em;
+    font-size: 1.5em; }
+
+  .jcarousel-skin-default .jcarousel-container-horizontal, .jcarousel-skin-default .jcarousel-clip-horizontal {
+    width: 230px; }
+
+  .jcarousel-skin-default .jcarousel-item {
+    margin: 0px 0.5em 0px 0em; } }
 
 /*# sourceMappingURL=style.css.map */
