@@ -6958,13 +6958,14 @@ p.caption {
 .align-right {
   text-align: right; }
 
-.btn-signale {
+a.btn.btn-signale {
   border-radius: 0;
   border: 0;
   text-shadow: none;
   box-shadow: none;
   background: #18b9d2;
-  color: white; }
+  color: white;
+  padding: 10px 12px; }
 
 .breadcrumb {
   background-color: white;
