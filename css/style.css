@@ -7592,10 +7592,10 @@ ul.jcarousel > li.jcarousel-item {
     height: auto !important; }
 
   .set-navigation {
-    float: left; }
+    float: none; }
 
   .image-navigation {
-    float: right; } }
+    float: none; } }
 @media (max-width: 480px) {
   .navbar .brand {
     margin-left: -15px; }
