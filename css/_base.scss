@@ -71,9 +71,12 @@ a.btn.btn-signale {
 	color: white;
 	padding: 10px 12px;
 	font-size: 18px;
-	i {
+	.fa-chevron-left {
 		margin-right: .25em;
 	}
+	.fa-chevron-right {
+		margin-left: .25em;
+	} 
 }
 
 

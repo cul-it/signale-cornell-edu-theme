@@ -6967,8 +6967,10 @@ a.btn.btn-signale {
   color: white;
   padding: 10px 12px;
   font-size: 18px; }
-  a.btn.btn-signale i {
+  a.btn.btn-signale .fa-chevron-left {
     margin-right: .25em; }
+  a.btn.btn-signale .fa-chevron-right {
+    margin-left: .25em; }
 
 .breadcrumb {
   background-color: white;
