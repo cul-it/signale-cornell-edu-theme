@@ -7788,4 +7788,8 @@ h2.folder-name {
   .list-caption p {
     font-size: 16px; }
 
+.set-navigation {
+  float: left;
+  margin-bottom: 2em; }
+
 /*# sourceMappingURL=style.css.map */
