@@ -7668,6 +7668,9 @@ h2.folder-name {
 .image-navigation {
   float: right; }
 
+.audio-icon {
+  width: 40px; }
+
 @media (min-width: 980px) and (max-width: 1199px) {
   .navbar .container {
     width: 940px; }
