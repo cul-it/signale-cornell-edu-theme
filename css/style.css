@@ -7672,6 +7672,12 @@ h2.folder-name {
 .audio-icon {
   width: 40px; }
 
+.page-media-set-1692 h4 {
+  display: none; }
+
+.main-content .view-media-set h4 {
+  text-transform: none; }
+
 @media (min-width: 980px) and (max-width: 1199px) {
   .navbar .container {
     width: 940px; }
