@@ -7659,7 +7659,8 @@ h2.folder-name {
 .list-caption {
   margin-top: 1em; }
   .list-caption p {
-    font-size: 16px; }
+    font-size: 16px;
+    margin-bottom: .5em; }
 
 .set-navigation {
   float: left;
